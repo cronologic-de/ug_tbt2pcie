@@ -7,9 +7,8 @@ TBT2PCIe |hyphen| User Guide
 
 .. toctree:: 
     :numbered:
-    :maxdepth: 2
+    :maxdepth: 3
 
     introduction
     hardware
-
-.. |hyphen| unicode:: U+2012
+    techdata

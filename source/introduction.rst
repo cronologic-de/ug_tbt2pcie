@@ -10,7 +10,7 @@ converters (TDCs), that is,
 to any USB4/Thunderbolt port.
 
 This user guide provides an overview of the crate. The APIs and interfaces
-of the respective TDC-card are unchanged. Refer to the respective user guides
+of the respective TDC board are unchanged. Refer to the respective user guides
 at `www.cronologic.de/support/downloads
 <https://www.cronologic.de/support/downloads>`_.
 

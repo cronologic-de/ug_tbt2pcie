@@ -36,7 +36,6 @@ to cronologic GmbH & Co. KG. A link to [this repository](https://github.com/cron
 
 If you decide to contribute to this repository you transfer non-exclusive
 but unlimited rights to your edit to cronologic GmbH & Co. KG.
+![Creative Commons by-nd 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)
 
 The file [extraplaceins.sty](extraplaceins.sty) is in the public domain.
-
-![Creative Commons by-nd 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)

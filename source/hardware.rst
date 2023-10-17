@@ -2,67 +2,57 @@ Hardware
 ========
 
 :numref:`Figure %s<overview_open>` gives an overview of the TBT2PCIe crate with
-an HPTDC4-PCIe board installed.
+an HPTDC4-PCIe board installed. The front and back panel are shown in 
+:numref:`Figure %s<overview_frontback>`.
 
 .. _overview_open:
 .. figure:: _figures/XHPTDC4-PCIe_032_Front_view_no_top_cover.png
     
     TBT2PCIe crate with removed top cover and an HPTDC4 board.
 
+.. _overview_frontback:
+.. figure:: _figures/frontback.*
+
+    Front and back panel of the TBT2PCIe crate. The front panel depends on 
+    the TDC card that is installed. :raw-latex:`\textcolor{red}{Is that so?}`
+    The interface at the fron panel is the same as the interface of your TDC
+    board.
+
 
 Installing a TDC board
 ----------------------
 
-#. Remove the top cover of the TBT2PCIe crate by doing XYZ.
-#. Remove the metal rail from your TDC board by removing the two screws holding
-   it in place.
-#. Connect your TDC board to the PCIe slot of the TBT2PCIe crate.
-#. Use the threaded holes where the metal cover of the TDC board was connected
-   to secure the TDC board to the TBT2PCIe crate.
-#. If present, connect the J25 connector.
-#. Close up the TBT2PCIe crate.
+#. A list on how to install it
 
 
+Power requirements
+------------------
 
-..
-    :numref:`Figure %s<fig1>` gives an overview of the adapter and
-    :numref:`Tab. %s<tab1>` gives an overview of the interface.
+It is possible to supply the TBT2PCIe crate with sufficient power via the
+USB-C/Thunderbolt connector. If that is the case, the LED next to the USB-C
+port (see :numref:`Fig. %s<overview_frontback>`) lights up **green**
+(input voltage :math:`>` |nbws| 8 |nbws| V) and no additional power supply
+needs to be connected. If the LED lights up **red**, an external power supply
+is necessary.
 
-    .. _fig1:
-    .. figure:: _figures/XHPTDC4-PCIe
-        :alt: Front, back, and side view of the Thunderbolt2PCIe adapter.
-        
-        Dummy picture. For a description of the labels, see :numref:`Tab. %s<tab1>`.
+.. note::
+    No external power supply is provided with the TBT2PCIe crate.
 
-    .. tabularcolumns:: c|c
+In case an external power supply is necessary, we recommend the
+MeanWell GST40A12-P1J (12 |nbws| V |nbws| DC, 3.34 |nbws| A) power supply.
+However, any power supply providing
+**12** |hyphen| **17.5** |nbws| **V** |nbws| **DC @ 3** |nbws| **A**
+with a standard P1J plug (see :numref:`Fig. %s<p1j>`) is sufficient.
 
-    .. _tab1:
-    .. table:: Interface of the Thunderbolt2PCIe adapter.
+If the power supply connected to the EXT PWR socket is sufficient, the LED
+next to it will light up **green** (input voltage
+:math:`>` |nbws| 11.3 |nbws| V).
 
-        =====  ===========
-        Label  Description
-        =====  ===========
-        \(1)    Input for external power supply
-        \(2)    USB-C / Thunderbolt connector
-        \(3)    Status LED external power supply
-        \(4)    Status LED for power supply over USB-C
-        =====  ===========
+.. note::
+    While an external power supply is connected, the TBT2PCIe crate does not
+    draw power via the USB-C port.
 
-    Section
-    -------
+.. _p1j:
+.. figure:: _figures/p1j.png
 
-    .. code-block:: c++
-
-        void my_func(param)
-        {
-            int i = 0;
-        }
-
-    Subsection
-    ~~~~~~~~~~
-
-    Subsubsection
-    ^^^^^^^^^^^^^
-
-    Paragraph
-    '''''''''
+    Standard P1J plug fitting the TBT2PCIe crate power socket.
