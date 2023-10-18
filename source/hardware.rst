@@ -12,8 +12,8 @@ Power requirements
 ------------------
 
 It is possible to supply the **TBT2PCIe** enclosure with
-sufficient power via the USB-C connector. If that is the case, the LED next to
-the USB-C port (see :numref:`Fig. %s<overview_frontback>`) lights up **green**
+sufficient power via the USB4 connector. If that is the case, the LED next to
+the USB4 port (see :numref:`Fig. %s<overview_frontback>`) lights up **green**
 (input voltage :math:`>` |nbws| 8 |nbws| V) and no additional power supply
 needs to be connected. If the LED lights up **red**, an external power supply
 is necessary.
@@ -34,7 +34,7 @@ not provide sufficient power, the LED will light up **red**.
 
 .. note::
     While an external power supply is connected, the **TBT2PCIe** enclosure
-    does not draw power via the USB-C port.
+    does not draw power via the USB4 port.
 
 .. _p1j:
 .. figure:: _figures/p1j.png
