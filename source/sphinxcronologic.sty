@@ -27,10 +27,10 @@
 
 % Colors used by custom sphinx roles
 \renewcommand{\DUrole}[2]{%
-	\IfEqCase{#1}{%
-		{red}{{\color{keywordred} #2}}%
-		{cronoblue}{{\color{cronblue} #2}}%
-	}%
+    \IfEqCase{#1}{%
+        {ctypered}{{\color{keywordred} #2}}%
+        {cronoblue}{{\color{cronblue} #2}}%
+    }%
 }
 
 \RequirePackage{graphicx} %for including figures
@@ -46,9 +46,9 @@
 \DeclareCaptionFont{cronocaptionlabelfont}{\bfseries\color{gry}}
 \DeclareCaptionFont{cronocaptionfont}{\color{gry}}
 \captionsetup{
-	labelsep=space,
-	labelfont=cronocaptionlabelfont,
-	textfont=cronocaptionfont,
+    labelsep=space,
+    labelfont=cronocaptionlabelfont,
+    textfont=cronocaptionfont,
 }
 
 % \PassOptionsToPackage{footsepline=1pt}{scrlayer-scrpage}
@@ -65,129 +65,159 @@
 
 \ifthenelse{\equal{\crono@font}{montserrat}}
 {
-	\setmainfont{Montserrat}
-	\setsansfont{Montserrat}
-	\setmonofont{Anonymous Pro}
-	\newfontfamily\sectionfont{Montserrat}
-	\setmathfont{Latin Modern Math}[Scale=MatchUppercase]
-	\setmathfont[range=up/{latin,Latin,num},Numbers=Lining]{Montserrat}
-	\setmathfont[range=it/{latin,Latin,num},Numbers=Lining]{Montserrat-Italic}
-	\setmathfont[range=bfup/{latin,Latin,num},Numbers=Lining]{Montserrat-Bold}
-	\setmathfont[range=bfit/{latin,Latin,num},Numbers=Lining]%
-		{Montserrat-BoldItalic}
-	\setmathfont[range=up/{greek,Greek}]{KerkisSans}
-	\setmathfont[range=it/{greek,Greek}]{KerkisSans Italic}
-	\setmathfont[range=bfup/{greek,Greek}]{Kerkis Sans Bold}
-	\setmathfont[range=bfit/{greek,Greek}]{Kerkis Sans Bold Italic}
+    \setmainfont[
+        ItalicFont={Montserrat-Italic.otf},
+        BoldFont={Montserrat-Bold.otf},
+        BoldItalicFont={Montserrat-BoldItalic.otf}
+    ]{Montserrat-Regular.otf}
+    \setsansfont[
+        ItalicFont={Montserrat-Italic.otf},
+        BoldFont={Montserrat-Bold.otf},
+        BoldItalicFont={Montserrat-BoldItalic.otf}
+    ]{Montserrat-Regular.otf}
+
+    \setmonofont[
+        ItalicFont={AnonymousPro-Italic.ttf},
+        BoldFont={AnonymousPro-Bold.ttf},
+        BoldItalicFont={AnonymousPro-BoldItalic.ttf}
+    ]{AnonymousPro-Regular.ttf}
+
+    \setmathfont[Scale=MatchUppercase]{Latin Modern Math}
+
+    \setmathfont[range=up/{latin,Latin,num}]{Montserrat-Regular.otf}
+    \setmathfont[range=it/{latin,Latin,num}]{Montserrat-Italic.otf}
+    \setmathfont[range=bfup/{latin,Latin,num}]{Montserrat-Bold}
+    \setmathfont[range=bfit/{latin,Latin,num}]{Montserrat-BoldItalic.otf}
+
+    \setmathfont[range=up/{greek,Greek}]{KerkisSans.otf}
+    \setmathfont[range=it/{greek,Greek}]{KerkisSans-Italic.otf}
+    \setmathfont[range=bfup/{greek,Greek}]{KerkisSans-Bold.otf}
+    \setmathfont[range=bfit/{greek,Greek}]{KerkisSans-BoldItalic.otf}
+
+    \newfontfamily\sectionfont[
+        Numbers=OldStyle,
+        ItalicFont={Montserrat-Italic.otf},
+        BoldFont={Montserrat-Bold.otf},
+        BoldItalicFont={Montserrat-BoldItalic.otf}
+    ]{Montserrat-Regular.otf}
 }{\relax}
 
 \ifthenelse{\equal{\crono@font}{fira}}
 {
-	\setmainfont[
-		Numbers=Tabular,
-		ItalicFont={FiraSans-Italic.otf},
-		BoldFont={FiraSans-Bold.otf},
-		BoldItalicFont={FiraSans-BoldItalic.otf}
-	]{FiraSans-Regular.otf}
-	\setsansfont[
-		Numbers=Tabular,
-		ItalicFont={FiraSans-Italic.otf},
-		BoldFont={FiraSans-Bold.otf},
-		BoldItalicFont={FiraSans-BoldItalic.otf}
-	]{FiraSans-Regular.otf}
-	\setmonofont[
-		ItalicFont={FiraMono-Oblique.otf},
-		BoldFont={FiraMono-Bold.otf},
-		BoldItalicFont={FiraMono-BoldOblique.otf}
-	]{FiraMono-Regular.otf}
-	\newfontfamily\sectionfont
-	[
-		ItalicFont={Montserrat-Italic.otf},
-		BoldFont={Montserrat-Bold.otf},
-		BoldItalicFont={Montserrat-BoldItalic.otf}
-	]
-	{Montserrat-Regular.otf}
-	\setmathfont{Fira Math}[Numbers=Tabular]
+    \setmainfont[
+        ItalicFont={FiraSans-Italic.otf},
+        BoldFont={FiraSans-Bold.otf},
+        BoldItalicFont={FiraSans-BoldItalic.otf}
+    ]{FiraSans-Regular.otf}
+    \setsansfont[
+        ItalicFont={FiraSans-Italic.otf},
+        BoldFont={FiraSans-Bold.otf},
+        BoldItalicFont={FiraSans-BoldItalic.otf}
+    ]{FiraSans-Regular.otf}
+    \setmonofont[
+        ItalicFont={FiraMono-Oblique.otf},
+        BoldFont={FiraMono-Bold.otf},
+        BoldItalicFont={FiraMono-BoldOblique.otf}
+    ]{FiraMono-Regular.otf}
+    \newfontfamily\sectionfont
+    [
+        Numbers=OldStyle,
+        ItalicFont={Montserrat-Italic.otf},
+        BoldFont={Montserrat-Bold.otf},
+        BoldItalicFont={Montserrat-BoldItalic.otf}
+    ]
+    {Montserrat-Regular.otf}
+
+    % fix the fact that Fira Math doesn't have tabular figures
+    \setmathfont{Fira Math}
 }{\relax}
 
 \ifthenelse{\equal{\crono@font}{default}}
 {
-	\newcommand\sectionfont{}
+    \newcommand\sectionfont{}
 }{\relax}
 
 
 %%%%%%%%%% Definitions for the whole document 
  
-%import a title PDF and create TOC
+% make cronologic titlepage
 \newcommand{\cronofront}{
-	\thispagestyle{empty}
-	\begin{tikzpicture}
-	\draw[inner sep=0pt] node at (0,0){
-		\includegraphics[width=155mm]{cronologic.pdf}
-	};
-	\end{tikzpicture}
+    \thispagestyle{empty}
+    \begin{tikzpicture}
+    % make sure to add cronologic.pdf to conf.py latex_additional_files
+    \draw[inner sep=0pt] node at (0,0){
+        \includegraphics[width=155mm]{cronologic.pdf}
+    };
+    \end{tikzpicture}
 
-	\begin{minipage}{0.83\textwidth}
-	\begin{tabular}{l}
+    \begin{minipage}{0.83\textwidth}
+    \begin{tabular}{l}
 
-	\begin{tikzpicture}
-	\draw[inner sep=0pt] node at (-8.1,1){\fontsize{20}{2}\selectfont
-	\sectionfont 
-	{\textcolor{org}{Thunderbolt to PCIe}}};
+    \begin{tikzpicture}
+    \draw[inner sep=0pt] node at (-8.1,1){\fontsize{20}{2}\selectfont
+    \sectionfont 
+    {\textcolor{org}{TBT2PCIe}}};
 
-	\draw[align=center] node at (-8.3,0){\fontsize{20}{2}\selectfont
-	\sffamily \textcolor{org}{USER GUIDE}};
-	\end{tikzpicture}
-	\\ \vspace{5pt}
-	%{\efbox{
-	%\hspace{-10pt}
-	\includegraphics[width=120mm,height=150mm,keepaspectratio]{XHPTDC4-PCIe_032_Front_view.png}
-	%}}
-	\\
-	\end{tabular}
-	\end{minipage}
-	\begin{minipage}{0\textwidth}
-	\vspace{25pt}
-	\begin{tikzpicture}
-	\draw[inner sep=0pt] node at (0,-5){ 
-	\fontsize{80}{2}\selectfont
-	\sectionfont 
-	\bfseries \textcolor{org}{ \rotatebox{90}{\hspace*{1em}TBT2PCIe\hspace*{1em}}}};
-	\end{tikzpicture}
-	\end{minipage}
+    \draw[align=center] node at (-8.3,0){\fontsize{20}{2}\selectfont
+    \sffamily \textcolor{org}{USER GUIDE}};
+    \end{tikzpicture}
+    \\ \vspace{5pt}
+    % make sure to add png to conf.py latex_additional_files
+    \includegraphics[width=120mm,height=150mm,keepaspectratio]{%
+        TBT2PCIe_Rear_view.png%
+    }
+    \\
+    \end{tabular}
+    \end{minipage}
+    \begin{minipage}{0\textwidth}
+    \vspace{25pt}
+    \begin{tikzpicture}
+    \draw[inner sep=0pt] node at (0,-5){ 
+        \fontsize{80}{2}\selectfont
+        \sectionfont 
+        \bfseries\textcolor{org}{%
+            \rotatebox{90}{\hspace*{1em}TBT2PCIe\hspace*{2.5em}}
+        }
+    };
+    \end{tikzpicture}
+    \end{minipage}
 
-	\vspace{-25pt}
-	\begin{minipage}{0\textwidth}
-	\begin{tikzpicture}
-	\draw[inner sep=0pt] node at (-3,-18){\fontsize{20}{2}\selectfont
-	\sffamily \textcolor{gry}{~\url{www.cronologic.de}}};
-	\end{tikzpicture}
-	\end{minipage}
-	\clearpage
+    \vspace{-25pt}
+    \begin{minipage}{0\textwidth}
+    \begin{tikzpicture}
+    \draw[inner sep=0pt] node at (-3,-18){\fontsize{20}{2}\selectfont
+    \sffamily \textcolor{gry}{~\url{www.cronologic.de}}};
+    \end{tikzpicture}
+    \end{minipage}
+    \clearpage
 }
 
 \PassOptionsToPackage{
-	colorlinks=true,
-	linkcolor=cronblue,
-	urlcolor=gry
+    colorlinks=true,
+    linkcolor=cronblue,
+    urlcolor=gry
 }{hyperref}
 \RequirePackage{hyperref}
 
 % format headings
 \titleformat{\chapter}%
-	{\LARGE\sffamily\bfseries\color{cronorange}}%
-	{\thechapter}{1em}{}{}
+    {\LARGE\sffamily\bfseries\color{cronorange}}%
+    {\thechapter}{1em}{}{}
 \titlespacing*{\chapter}%
-	{0ex}{0ex}{*2}
+    {0ex}{0ex}{*2}
 
 \titleformat{\section}%
-	{\Large\bfseries\sffamily\color{cronorange}}%
-	{\thesection}{1em}{}{}
+    {\Large\bfseries\sffamily\color{cronorange}}%
+    {\thesection}{1em}{}{}
 
 \titleformat{\subsection}%
-	{\large\bfseries\sffamily\color{cronblue}}%
-	{\thesubsection}{1em}{}{}
+    {\large\bfseries\sffamily\color{cronblue}}%
+    {\thesubsection}{1em}{}{}
 
 \titleformat{\subsubsection}%
-	{\bfseries\itshape\sffamily\color{cronblue}}%
-	{\thesubsubsection}{1em}{}{}
+    {\bfseries\itshape\sffamily\color{cronblue}}%
+    {\thesubsubsection}{1em}{}{}
+
+
+%
+\setlength{\headheight}{14.5pt}

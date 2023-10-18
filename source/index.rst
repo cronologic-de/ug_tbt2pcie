@@ -12,3 +12,4 @@ TBT2PCIe |hyphen| User Guide
     introduction
     hardware
     techdata
+    revhistory

@@ -52,7 +52,7 @@ latex_elements = {
 }
 latex_theme = "manual" # manual (book class) or howto (article class)
 latex_additional_files = ["sphinxcronologic.sty", "extraplaceins.sty",
-                          "_figures/XHPTDC4-PCIe_032_Front_view.png",
+                          "_figures/TBT2PCIe_Rear_view.png",
                           "cronologic.pdf"]
 
 numfig = True
