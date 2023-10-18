@@ -2,7 +2,7 @@ Hardware
 ========
 
 .. _overview_frontback:
-.. figure:: _figures/frontback.png
+.. figure:: _figures/frontback.*
 
     Front and back panel of the **TBT2PCIe** enclosure.
     The interface at the front panel is the same as the interface of your
@@ -49,7 +49,20 @@ Refer to the respective user guide of the particular TDC card that is installed
 in your **TBT2PCIe** enclosure.
 
 TimeTagger4:
-    `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+    - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+    - *readthedoc hyperlink*
   
 xTDC4:
-    `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+    - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+    - *readthedoc hyperlink*
+
+
+Environmental conditions
+------------------------
+.. note::
+
+    are those values correct? TODO
+
+- Operating temperature range: 5 to 40°C
+- Storage temperature range: |hyphen|\ 10 to 60°C
+- Relative humidity (non-condensing): :math:`<` 90\%

@@ -1,8 +1,15 @@
 Revision History
 ================
 
-=========== ========== =============
-Revision    Date       Comments
-=========== ========== =============
-1.0.0       WIP        Initial Release
-=========== ========== =============
+TBT2PCIe enclosure
+------------------
+
+Rev2 |emdash| DD-Mon-JJJJ
+    Initial product release
+
+User Guide
+----------
+
+1.0.0 |emdash| DD-Mon-JJJJ
+    initial release
+    

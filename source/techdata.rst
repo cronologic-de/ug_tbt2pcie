@@ -7,10 +7,12 @@ Refer to the respective user guide of the particular TDC card that is installed
 in your **TBT2PCIe** enclosure.
 
 TimeTagger4:
-    `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+    - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+    - *Direct link to respective section in readthedocs website*
   
 xTDC4:
-    `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+    - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+    - *Direct link to respective section in readthedocs website*
 
 
 Information required by DIN EN 61010-1
