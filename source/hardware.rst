@@ -13,8 +13,8 @@ Power requirements
 
 It is possible to supply the **TBT2PCIe** enclosure with
 sufficient power via the USB4 connector. If that is the case, the LED next to
-the USB4 port (see :numref:`Fig. %s<overview_frontback>`) lights up **green**
-(input voltage :math:`>` |nbws| 8 |nbws| V) and no additional power supply
+the USB4 port (see :numref:`Fig. %s<overview_frontback>`) lights up **green**
+(input voltage :math:`>` |usep| 8 |usep| V) and no additional power supply
 needs to be connected. If the LED lights up **red**, an external power supply
 is necessary.
 
@@ -22,14 +22,14 @@ is necessary.
     No external power supply is provided with the **TBT2PCIe** enclosure.
 
 In case an external power supply is necessary, we recommend the
-MeanWell GST40A12-P1J (12 |nbws| V |nbws| DC, 3.34 |nbws| A) power supply.
+MeanWell GST40A12-P1J (12 |usep| V |usep| DC, 3.34 |usep| A) power supply.
 However, any power supply providing
-**12** |hyphen| **17.5** |nbws| **V** |nbws| **DC @ 3** |nbws| **A**
-with a plug as depicted in :numref:`Fig. %s<p1j>` is sufficient.
+**12** |hyphen| **17.5** |usep| **V** |usep| **DC @ 3** |usep| **A**
+with a plug as depicted in :numref:`Fig. %s<p1j>` is sufficient.
 
 If the power supply connected to the EXT PWR socket is sufficient, the LED
 next to it will light up **green** (input voltage
-:math:`>` |nbws| 11.3 |nbws| V). If a power supply is connected that does
+:math:`>` |usep| 11.3 |usep| V). If a power supply is connected that does
 not provide sufficient power, the LED will light up **red**.
 
 .. note::
@@ -50,10 +50,14 @@ in your **TBT2PCIe** enclosure.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+
+..
     - *readthedoc hyperlink*
   
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+
+..
     - *readthedoc hyperlink*
 
 

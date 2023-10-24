@@ -1,6 +1,16 @@
 Technical Data
 ==============
 
+Size and Weight
+~~~~~~~~~~~~~~~
+
+Dimensions:
+    X :math:`\times` Y :math:`\times` Z mm
+
+Weight:
+    - TimeTagger4: Z g
+    - xTDC4: Z g
+
 TDC characteristics
 -------------------
 Refer to the respective user guide of the particular TDC card that is installed
@@ -8,10 +18,14 @@ in your **TBT2PCIe** enclosure.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+
+..
     - *Direct link to respective section in readthedocs website*
   
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+
+..
     - *Direct link to respective section in readthedocs website*
 
 
@@ -41,6 +55,7 @@ does not pose any hazards as defined by **EN 61010-1.**
 When handling the enclosure, adequate measures have to be taken to protect
 the circuits against electrostatic discharge (ESD).
 :raw-latex:`\textcolor{red}{Is that so?}`
+
 
 
 Recycling

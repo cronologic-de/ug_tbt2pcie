@@ -13,7 +13,11 @@
 .. Substitutions
 
 .. no-break whitespace
-.. |nbws| unicode:: 0xA0
+.. |nbws| unicode:: 0x00A0
+    :trim
+
+.. narrow no-break whitespace
+.. |usep| unicode:: 0x202F
     :trim:
 
 .. |hyphen| unicode:: U+2012
