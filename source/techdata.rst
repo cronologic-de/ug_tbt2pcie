@@ -2,7 +2,7 @@ Technical Data
 ==============
 
 Size and Weight
-~~~~~~~~~~~~~~~
+---------------
 
 Dimensions:
     X :math:`\times` Y :math:`\times` Z mm
@@ -13,9 +13,7 @@ Weight:
 
 TDC characteristics
 -------------------
-Refer to the respective user guide of the particular TDC card that is installed
-in your **TBT2PCIe** enclosure. What kind of TDC card is mounted in the
-enclosure is labeled by a sticker on the back side.
+Refer to the main user guide of the particular TDC card.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
@@ -49,7 +47,7 @@ The crate is a product of:
 Intended Use and System Integration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **TBT2PCIe** enclosure is designed to comply with **DIN EN 61326-1**
+The device enclosure is designed to comply with **DIN EN 61326-1**
 when operated as outlined in this manual. The enclosure
 does not pose any hazards as defined by **EN 61010-1.**
 
@@ -66,9 +64,9 @@ cronologic is registered with the “Stiftung Elektro-Altgeräte Register”
 as a manufacturer of electronic systems with **Registration ID DE
 77895909**.
 
-The **TBT2PCIe** enclosure belongs to **category 9**, **“Überwachungs und
-Kontrollinstrumente für ausschließlich gewerbliche Nutzung”**. The last owner
-of a **TBT2PCIe** enclosure must recycle it, treat the board in compliance with
+The device belongs to **Category 9**, **“Überwachungs und
+Kontrollinstrumente für ausschließlich gewerbliche Nutzung.”** The last owner
+of the device must recycle it in compliance with
 **§11** and **§12** of the German ElektroG, or return it to the manufacturer’s
 address listed in :numref:`Section %s<techdata:Manufacturer>`.
 
@@ -77,4 +75,4 @@ Export Control
 ~~~~~~~~~~~~~~
 
 .. note::
-    TODO
+    :red:`TODO`

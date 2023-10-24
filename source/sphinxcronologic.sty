@@ -24,14 +24,10 @@
 \definecolor{cronblue}{RGB}{55, 110, 181}
 \definecolor{cronblack}{RGB}{0,0,0}
 \definecolor{keywordred}{RGB}{142,33,0}
-
-% Colors used by custom sphinx roles
-\renewcommand{\DUrole}[2]{%
-    \IfEqCase{#1}{%
-        {ctypered}{{\color{keywordred} #2}}%
-        {cronoblue}{{\color{cronblue} #2}}%
-    }%
-}
+% \DUrole{color} is expanded to \docutilsrolecolor
+\newcommand{\docutilsrolectypered}[1]{{\color{ctypered} #1}}
+\newcommand{\docutilsrolered}[1]{{\color{red} #1}}
+\newcommand{\docutilsrolecronoblue}[1]{{\color{cronblue} #1}}
 
 \RequirePackage{graphicx} %for including figures
 \RequirePackage{tabularx}

@@ -11,5 +11,5 @@ User Guide
 ----------
 
 1.0.0 |emdash| DD-Mon-JJJJ
-    initial release
+    Initial release
     

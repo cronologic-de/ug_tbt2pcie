@@ -1,17 +1,20 @@
 Introduction
 ============
 
-Using the **TBT2PCIe** enclosure, it is possible to connect the
-`TimeTagger4 <https://www.cronologic.de/product/timetagger>`_ and
+The `TimeTagger4 <https://www.cronologic.de/product/timetagger>`_ and
 `xTDC4-PCIe <https://www.cronologic.de/product/xtdc4-pcie>`_ time-to-digital
-(TDC) cards to any Thunderbolt\ :sup:`TM` and to any USB4 port that
-support PCIe with conventional Thunderbolt\ :sup:`TM` cables.
+(TDC) cards are available as external desktop versions, referred to as the 
+TBT variant. Conventional Thunderbolt cables can be used to connect the TBT
+variants of our products to any Thunderbolt port and to any USB4 port that
+support PCIe.
 
-This user guide provides an overview of the enclosure. The APIs and interfaces
-of the respective TDC board wihtin the enclosure are unchanged. Refer to the
-particular user guides at `www.cronologic.de/support/downloads
+This User Guide Appendix provides an overview of the device's operation.
+For an explanation of the APIs and interfaces refer to the main user
+guide of your product at
+`www.cronologic.de/support/downloads
 <https://www.cronologic.de/support/downloads>`_.
 
 This user guide is available at
 `readthedoc <https://cronologic-man-pcie-over-usb4.readthedocs.io/en/latest/>`_
 and at `<www.docs.cronologic.de>`_ as HTML and as PDF download.
+:red:`TODO - check links`
