@@ -14,7 +14,8 @@ Weight:
 TDC characteristics
 -------------------
 Refer to the respective user guide of the particular TDC card that is installed
-in your **TBT2PCIe** enclosure.
+in your **TBT2PCIe** enclosure. What kind of TDC card is mounted in the
+enclosure is labeled by a sticker on the back side.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_

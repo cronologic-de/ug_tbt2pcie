@@ -37,7 +37,7 @@ not provide sufficient power, the LED will light up **red**.
     does not draw power via the USB4 port.
 
 .. _p1j:
-.. figure:: _figures/p1j.png
+.. figure:: _figures/powerplug_overview.*
 
     Requirements for plugs fitting the EXT PWR socket of the
     **TBT2PCIe** enclosure.
