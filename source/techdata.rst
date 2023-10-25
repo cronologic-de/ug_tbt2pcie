@@ -5,11 +5,11 @@ Size and Weight
 ---------------
 
 Dimensions:
-    X :math:`\times` Y :math:`\times` Z mm
+    TBA
 
 Weight:
-    - TimeTagger4: Z g
-    - xTDC4: Z g
+    - TimeTagger4: TBA
+    - xTDC4: TBA
 
 TDC characteristics
 -------------------
@@ -53,7 +53,6 @@ does not pose any hazards as defined by **EN 61010-1.**
 
 When handling the enclosure, adequate measures have to be taken to protect
 the circuits against electrostatic discharge (ESD).
-:raw-latex:`\textcolor{red}{Is that so?}`
 
 
 
@@ -65,14 +64,8 @@ as a manufacturer of electronic systems with **Registration ID DE
 77895909**.
 
 The device belongs to **Category 9**, **“Überwachungs und
-Kontrollinstrumente für ausschließlich gewerbliche Nutzung.”** The last owner
-of the device must recycle it in compliance with
+Kontrollinstrumente für aus**\ :raw-latex:`\-`\ **schließlich gewerbliche
+Nutzung.”** The last owner of the device must recycle it in compliance with
 **§11** and **§12** of the German ElektroG, or return it to the manufacturer’s
 address listed in :numref:`Section %s<techdata:Manufacturer>`.
 
-
-Export Control
-~~~~~~~~~~~~~~
-
-.. note::
-    :red:`TODO`

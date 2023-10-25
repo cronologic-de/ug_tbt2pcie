@@ -12,3 +12,6 @@ build/latex/*
 
 # python
 __pycache__/
+
+# miscellaneous
+source/_figures/obsolete/

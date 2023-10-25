@@ -14,7 +14,5 @@ guide of your product at
 `www.cronologic.de/support/downloads
 <https://www.cronologic.de/support/downloads>`_.
 
-This user guide is available at
-`readthedoc <https://cronologic-man-pcie-over-usb4.readthedocs.io/en/latest/>`_
-and at `<www.docs.cronologic.de>`_ as HTML and as PDF download.
-:red:`TODO - check links`
+This user guide is available at `<www.docs.cronologic.de>`_ as HTML and
+as PDF download. :red:`TODO - check links`

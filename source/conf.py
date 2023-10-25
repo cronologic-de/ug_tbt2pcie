@@ -6,10 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'TBT2PCIe User Guide'
-copyright = ("Creative Commons Attribution-NoDerivatives"
-             " 4.0 International License")
-author = 'cronologic GmbH & Co. KG'
+project = 'User Guide Appendix — Desktop Solutions'
+copyright = "CC BY-ND 4.0 DEED"
+author = "cronologic GmbH & Co. KG"
 release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -40,10 +39,10 @@ latex_elements = {
     "papersize": "a4paper",
     "pointsize": "12pt",
     "fontpkg" : "",
-    "preamble": r"\usepackage[font=fira]{sphinxcronologic}",
+    "preamble": r"\usepackage[font=montserrat]{sphinxcronologic}",
     "extraclassoptions": r"openany",
     "tableofcontents":r"""\tableofcontents""",
-    "maketitle": r"\cronofront",
+    "maketitle": r"\cronofront{titlepage.pdf}",
     "sphinxsetup": r"""
         TitleColor={rgb}{0.1686,0.4667,0.6941},
         hmargin={2.5cm,2.5cm},
@@ -51,9 +50,11 @@ latex_elements = {
     """
 }
 latex_theme = "manual" # manual (book class) or howto (article class)
-latex_additional_files = ["sphinxcronologic.sty", "extraplaceins.sty",
-                          "_figures/TBT2PCIe_Rear_view_lowres.png",
-                          "cronologic.pdf"]
+latex_additional_files = [
+    "sphinxcronologic.sty",
+    "extraplaceins.sty",
+    "_figures/titlepage.pdf",
+]
 
 numfig = True
 numfig_format = {

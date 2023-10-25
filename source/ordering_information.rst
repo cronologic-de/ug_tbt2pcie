@@ -5,7 +5,7 @@ TimeTagger4
 -----------
 
 Multiple variants of the TimeTagger4 TDC card are available. The cards adhere
-to the following naming convention
+to the following naming convention:
 
 .. image:: _figures/TT4_ordering_scheme.*
 
@@ -23,7 +23,7 @@ TBT-Upgrade-Kit
 ---------------
 
 If you own the PCIe version of the product, you can upgrade your device to
-the desktop (TBT) version using the following order codes:
+the desktop (-TBT) version using the following ordering codes:
 
 TT4-EXT
     Upgrade kit for any **TT4-▯-PCIe** card.

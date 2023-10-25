@@ -37,6 +37,8 @@
 \RequirePackage{extraplaceins} %for binding figures to a (sub-)section
 \RequirePackage{array} %for centered AND constant width columns
 \RequirePackage{microtype} % better textblock layout
+\RequirePackage{svg}
+\RequirePackage{epstopdf}
 
 \RequirePackage{caption}
 \DeclareCaptionFont{cronocaptionlabelfont}{\bfseries\color{gry}}
@@ -49,7 +51,6 @@
 
 % \PassOptionsToPackage{footsepline=1pt}{scrlayer-scrpage}
 \RequirePackage{makecell}  % multi line table cells
-\RequirePackage{incgraph} % to include the title page
 
 
 %%
@@ -124,7 +125,6 @@
     ]
     {Montserrat-Regular.otf}
 
-    % fix the fact that Fira Math doesn't have tabular figures
     \setmathfont{Fira Math}
 }{\relax}
 
@@ -136,56 +136,13 @@
 
 %%%%%%%%%% Definitions for the whole document 
  
+\RequirePackage{pdfpages}
 % make cronologic titlepage
-\newcommand{\cronofront}{
-    \thispagestyle{empty}
-    \begin{tikzpicture}
-    % make sure to add cronologic.pdf to conf.py latex_additional_files
-    \draw[inner sep=0pt] node at (0,0){
-        \includegraphics[width=155mm]{cronologic.pdf}
-    };
-    \end{tikzpicture}
-
-    \begin{minipage}{0.83\textwidth}
-    \begin{tabular}{l}
-
-    \begin{tikzpicture}
-    \draw[inner sep=0pt] node at (-8.1,1){\fontsize{20}{2}\selectfont
-    \sectionfont 
-    {\textcolor{org}{TBT2PCIe}}};
-
-    \draw[align=center] node at (-8.3,0){\fontsize{20}{2}\selectfont
-    \sffamily \textcolor{org}{USER GUIDE}};
-    \end{tikzpicture}
-    \\ \vspace{5pt}
-    % make sure to add png to conf.py latex_additional_files
-    \includegraphics[width=120mm,height=150mm,keepaspectratio]{%
-        TBT2PCIe_Rear_view_lowres.png%
-    }
-    \\
-    \end{tabular}
-    \end{minipage}
-    \begin{minipage}{0\textwidth}
-    \vspace{25pt}
-    \begin{tikzpicture}
-    \draw[inner sep=0pt] node at (0,-5){ 
-        \fontsize{80}{2}\selectfont
-        \sectionfont 
-        \bfseries\textcolor{org}{%
-            \rotatebox{90}{\hspace*{1.75em}TBT2PCIe\hspace*{1.75em}}
-        }
-    };
-    \end{tikzpicture}
-    \end{minipage}
-
-    \vspace{-25pt}
-    \begin{minipage}{0\textwidth}
-    \begin{tikzpicture}
-    \draw[inner sep=0pt] node at (-3,-18){\fontsize{20}{2}\selectfont
-    \sffamily \textcolor{gry}{~\url{www.cronologic.de}}};
-    \end{tikzpicture}
-    \end{minipage}
-    \clearpage
+\newcommand{\cronofront}[1]{
+    \includepdf[pages={1}]{#1}
+}
+\newcommand{\cronoback}[1]{
+    \includepdf[pages={2}]{#1}
 }
 
 \PassOptionsToPackage{
