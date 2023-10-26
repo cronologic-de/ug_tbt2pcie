@@ -39,7 +39,7 @@ latex_elements = {
     "papersize": "a4paper",
     "pointsize": "12pt",
     "fontpkg" : "",
-    "preamble": r"\usepackage[font=avenirnext]{sphinxcronologic}",
+    "preamble": r"\usepackage[font=montserrat]{sphinxcronologic}",
     "extraclassoptions": r"openany",
     "tableofcontents":r"""\tableofcontents""",
     "maketitle": r"\cronofront{titlepage.pdf}",
