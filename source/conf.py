@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'User Guide Appendix — Desktop Solutions'
+project = 'User Guide Appendix – Desktop Solutions'
 copyright = "CC BY-ND 4.0 DEED"
 author = "cronologic GmbH & Co. KG"
 release = '0.1.0'
@@ -16,6 +16,7 @@ release = '0.1.0'
 
 extensions = [
     "sphinx.ext.autosectionlabel",
+    "sphinx.ext.intersphinx",
 ]
 
 autosectionlabel_prefix_document = True
@@ -39,19 +40,28 @@ latex_elements = {
     "papersize": "a4paper",
     "pointsize": "12pt",
     "fontpkg" : "",
-    "preamble": r"\usepackage[font=montserrat]{sphinxcronologic}",
+    "preamble": r"""
+        \usepackage[
+            font=avenirnext,
+            sphinx,
+            drawframe]
+        {cronologic}
+        \newcommand{\docutilsrolectypered}[1]{{\color{ctypered} #1}}
+        \newcommand{\docutilsrolered}[1]{{\color{red} #1}}
+        \newcommand{\docutilsrolecronoblue}[1]{{\color{cronblue} #1}}
+        \definecolor{ctypered}{RGB}{142,33,0} % C-type auto highlighting color
+    """,
     "extraclassoptions": r"openany",
-    "tableofcontents":r"""\tableofcontents""",
-    "maketitle": r"\cronofront{titlepage.pdf}",
+    "tableofcontents":r"\tableofcontents",
+    "maketitle": r"\includepdf[pages={1}]{titlepage.pdf}",
     "sphinxsetup": r"""
-        TitleColor={rgb}{0.1686,0.4667,0.6941},
-        hmargin={2.5cm,2.5cm},
-        vmargin={2.5cm,2.5cm}
+        hmargin={1.5cm,1.5cm},
+        vmargin={1.85cm,1.40cm}
     """
 }
 latex_theme = "manual" # manual (book class) or howto (article class)
 latex_additional_files = [
-    "sphinxcronologic.sty",
+    "cronologic.sty",
     "extraplaceins.sty",
     "_figures/titlepage.pdf",
 ]

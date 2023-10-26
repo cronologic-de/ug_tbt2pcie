@@ -13,7 +13,7 @@ Weight:
 
 TDC characteristics
 -------------------
-Refer to the main user guide of the particular TDC card.
+Refer to the main user guide of the particular TDC card in your device.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_

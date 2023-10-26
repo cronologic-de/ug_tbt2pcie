@@ -4,7 +4,7 @@ Revision History
 Firmware, Driver, and Applications
 ----------------------------------
 
-Refer to the main user guide of the particular TDC card.
+Refer to the main user guide of the particular TDC card in your device.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
@@ -26,7 +26,6 @@ User Guide
     Initial release
     
 
-..
-    .. raw:: latex
+.. raw:: latex
 
-        \cronoback{titlepage.pdf}
+    \includepdf[pages={2}]{titlepage.pdf}

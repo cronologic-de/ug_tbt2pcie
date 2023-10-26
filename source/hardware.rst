@@ -46,8 +46,8 @@ not provide sufficient power, the LED will light up **red**.
 Inputs and connectors
 ---------------------
 
-For the front-panel connectors, refer to the main user guide of the your
-product.
+For the front-panel connectors, refer to the main user guide of the
+particular TDC card in your device.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
@@ -60,5 +60,3 @@ xTDC4:
 
 ..
     - *readthedoc hyperlink*
-
-:math:`Test \sum\int \pm - 3 \times 4 \cos \alpha\beta\Gamma\Xi`
