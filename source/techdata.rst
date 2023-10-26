@@ -34,11 +34,11 @@ Information required by DIN EN 61010-1
 Manufacturer
 ~~~~~~~~~~~~
 
-The crate is a product of:
+The device is a product of:
 
     | cronologic GmbH & Co. KG
     | Jahnstraße 49
-    | 60318 Frankfurt
+    | D-60318 Frankfurt
 
     | HRA 42869 beim Amtsgericht Frankfurt/M
     | VAT-ID: DE235184378

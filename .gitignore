@@ -5,7 +5,8 @@
 build/*
 !build/latex
 build/latex/*
-!build/latex/tbt2pcieuserguide.pdf
+!build/latex/userguideappendixdesktopsolutions.pdf
+
 
 # virtual environment folder
 .venv/

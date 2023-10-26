@@ -2,6 +2,11 @@
 TBT2PCIe |hyphen| User Guide
 ############################
 
+.. raw:: latex
+
+    \RaggedRight
+
+
 .. note:: 
     This user guide is under active development.
 

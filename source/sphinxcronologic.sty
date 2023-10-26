@@ -4,6 +4,7 @@
 
 \RequirePackage{ifthen}
 \RequirePackage{xstring}
+\RequirePackage{xpatch} % pretend and append to cmd using xpre/apptocmd
 \RequirePackage{kvoptions}
 \SetupKeyvalOptions{family=crono, prefix=crono@}
 
@@ -19,9 +20,10 @@
 \RequirePackage{xcolor}
 \definecolor{org}{RGB}{237,120,0}
 \definecolor{gry}{RGB}{157,157,156}
-\definecolor{crongrey}{gray}{0.5} %Variablendeklaration API
+\definecolor{cronogrey}{gray}{0.5} %Variablendeklaration API
 \definecolor{cronorange}{RGB}{237, 120, 0}
 \definecolor{cronblue}{RGB}{55, 110, 181}
+\definecolor{cronolightgreen}{RGB}{86,159,214}
 \definecolor{cronblack}{RGB}{0,0,0}
 \definecolor{keywordred}{RGB}{142,33,0}
 % \DUrole{color} is expanded to \docutilsrolecolor
@@ -128,9 +130,38 @@
     \setmathfont{Fira Math}
 }{\relax}
 
+\ifthenelse{\equal{\crono@font}{avenirnext}}
+{
+    \setmainfont[
+        % ItalicFont={Avenir Next Italic},
+        % BoldFont={Avenir Next Demi Bold},
+        % BoldItalicFont={Avenir Next Demi Bold Italic}
+    ]{Avenir Next}
+    \setsansfont[
+        % ItalicFont={Avenir Next Italic},
+        % BoldFont={Avenir Next Demi Bold},
+        % BoldItalicFont={Avenir Next Demi Bold Italic}
+    ]{Avenir Next}
+
+    \setmonofont[
+        ItalicFont={AnonymousPro-Italic.ttf},
+        BoldFont={AnonymousPro-Bold.ttf},
+        BoldItalicFont={AnonymousPro-BoldItalic.ttf}
+    ]{AnonymousPro-Regular.ttf}
+
+    \setmathfont[Scale=MatchUppercase]{Latin Modern Math}
+
+    \setmathfont[range=up/{latin,Latin,num,greek,Greek}]{Avenir Next Regular}
+    \setmathfont[range=it/{latin,Latin,num,greek,Greek}]{Avenir Next Italic}
+    \setmathfont[range=bfup/{latin,Latin,num,greek,Greek}]{Avenir Next Demi Bold}
+    \setmathfont[range=bfit/{latin,Latin,num,greek,Greek}]{Avenir Next Demi Bold Italic}
+
+    \newfontfamily\headerfont{Avgardm.ttf}
+}{\relax}
+
 \ifthenelse{\equal{\crono@font}{default}}
 {
-    \newcommand\sectionfont{}
+    \newcommand\headerfont{}
 }{\relax}
 
 
@@ -154,17 +185,17 @@
 
 % format headings
 \titleformat{\chapter}%
-    {\LARGE\sffamily\bfseries\color{cronorange}}%
-    {\thechapter}{1em}{}{}
+    {\headerfont\LARGE\bfseries\color{cronorange}}%
+    {\thechapter}{1em}{\thispagestyle{normal}}{}
 \titlespacing*{\chapter}%
     {0ex}{0ex}{*2}
 
 \titleformat{\section}%
-    {\Large\bfseries\sffamily\color{cronorange}}%
+    {\headerfont\Large\bfseries\color{cronorange}}%
     {\thesection}{1em}{}{}
 
 \titleformat{\subsection}%
-    {\large\bfseries\sffamily\color{cronblue}}%
+    {\headerfont\large\bfseries\color{cronblue}}%
     {\thesubsection}{1em}{}{}
 
 \titleformat{\subsubsection}%
@@ -174,3 +205,19 @@
 
 %
 \setlength{\headheight}{14.5pt}
+\fancypagestyle{normal}{
+    \fancyhf{}
+    \fancyfoot[LO]{{\headerfont\color{cronogrey}cronologic GmbH \& Co. KG}}
+    \fancyfoot[RO]{{\headerfont\color{cronogrey}\thepage}}
+    \if@twoside
+        \fancyfoot[RE]{{\headerfont\color{cronogrey}cronologic GmbH \& Co. KG}}
+        \fancyfoot[LE]{{\headerfont\color{cronogrey}\thepage}}
+    \fi
+    \fancyhead[R]{{\headerfont\color{cronogrey}\@title\sphinxheadercomma\py@release}}
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+    \xpretocmd\headrule{\begingroup\color{cronogrey}}{}{\PatchFailed}
+    \xapptocmd\headrule{\endgroup}{}{\PatchFailed}
+    \xpretocmd\footrule{\begingroup\color{cronogrey}}{}{\PatchFailed}
+    \xapptocmd\footrule{\endgroup}{}{\PatchFailed}
+}

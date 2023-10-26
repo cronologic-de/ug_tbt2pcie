@@ -26,7 +26,7 @@ In case an external power supply is necessary, we recommend the
 <https://www.meanwell-web.com/en-gb/ac-dc-industrial-desktop-adaptor-output-12vdc-at-3-gst40a12--p1j>`_
 (12 |nbws| V |nbws| DC, 3.34 |nbws| A) power supply.
 However, any power supply providing
-**12** |hyphen| **17.5** |nbws| **V** |nbws| **DC @ 3** |nbws| **A**
+**12** |endash| **17.5** |nbws| **V** |nbws| **DC @ 3** |nbws| **A**
 with a plug as depicted in :numref:`Fig. %s<p1j>` is sufficient.
 
 If the power supply connected to the EXT PWR socket is sufficient, the LED
@@ -60,3 +60,5 @@ xTDC4:
 
 ..
     - *readthedoc hyperlink*
+
+:math:`Test \sum\int \pm - 3 \times 4 \cos \alpha\beta\Gamma\Xi`
