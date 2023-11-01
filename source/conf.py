@@ -42,7 +42,7 @@ latex_elements = {
     "fontpkg" : "",
     "preamble": r"""
         \usepackage[
-            font=avenirnext,
+            font=montserrat,
             sphinx,
             drawframe]
         {cronologic}

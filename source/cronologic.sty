@@ -19,6 +19,24 @@
 
 \ProcessKeyvalOptions{crono}
 
+\newlength\cronoleft
+\newlength\cronoright
+\newlength\cronotop
+\newlength\cronobottom
+\setlength\cronoleft{1.5cm}
+\setlength\cronoright{1.5cm}
+\setlength\cronotop{1.85cm}
+\setlength\cronobottom{1.55cm}
+
+\newlength\cronoframemargin
+\newlength\cronoframeoffset
+\newlength\cronoframelinesep
+\newlength\cronoframelinewidth
+\setlength{\cronoframemargin}{1.25cm}
+\setlength{\cronoframeoffset}{0.8cm}
+\setlength{\cronoframelinesep}{0.18pt}
+\setlength{\cronoframelinewidth}{0.8pt}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % colors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,12 +223,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % formatting
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \PassOptionsToPackage{
-	left=1.5cm,
-	right=1.5cm,
-	top=1.85cm,
-	bottom=1.55cm
+	left=\cronoleft,
+	right=\cronoright,
+	top=\cronotop,
+	bottom=\cronobottom
 }{geometry}
 \RequirePackage{geometry}
 \setlength\headsep{0.35cm}
@@ -238,56 +255,47 @@
     
 % draw frame around text
 \ifthenelse{\boolean{crono@drawframe}}{
-	\newlength{\cronoedgeoffsetbig}
-	\setlength{\cronoedgeoffsetbig}{1.25cm}
-	\newlength{\cronoedgeoffsetsmall}
-	\setlength{\cronoedgeoffsetsmall}{0.8cm}
-	\newlength{\cronoedgeoffsetgap}
-	\setlength{\cronoedgeoffsetgap}{0.8pt}
-	\newlength{\cronoedgelinewidth}
-	\setlength{\cronoedgelinewidth}{0.18pt}
-
 	\RequirePackage{everypage}
 	\RequirePackage{tikzpagenodes}
 	\usetikzlibrary{calc}
 	\AddEverypageHook{\tikz[remember picture,overlay]{%
 	  % left lines
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey] 
-		($(current page.north west)+(\cronoedgeoffsetbig,-\cronoedgeoffsetsmall)$)
-		-- ($(current page.south west)+(\cronoedgeoffsetbig,\cronoedgeoffsetsmall)$);
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey] 
+	  \draw [line width=\cronoframelinewidth,cronolightgrey] 
+		($(current page.north west)+(\cronoframemargin,-\cronoframeoffset)$)
+		-- ($(current page.south west)+(\cronoframemargin,\cronoframeoffset)$);
+	  \draw [line width=\cronoframelinewidth,cronolightgrey] 
 		($(current page.north west)+
-		  (\cronoedgeoffsetbig+\cronoedgeoffsetgap,-\cronoedgeoffsetsmall)$)
+		  (\cronoframemargin+\cronoframelinesep,-\cronoframeoffset)$)
 		-- 
 		($(current page.south west)+
-		  (\cronoedgeoffsetbig+\cronoedgeoffsetgap,\cronoedgeoffsetsmall)$);
+		  (\cronoframemargin+\cronoframelinesep,\cronoframeoffset)$);
 	  % right lines
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey] 
-		($(current page.north east)+(-\cronoedgeoffsetbig,-\cronoedgeoffsetsmall)$)
-		-- ($(current page.south east)+(-\cronoedgeoffsetbig,\cronoedgeoffsetsmall)$);
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey] 
+	  \draw [line width=\cronoframelinewidth,cronolightgrey] 
+		($(current page.north east)+(-\cronoframemargin,-\cronoframeoffset)$)
+		-- ($(current page.south east)+(-\cronoframemargin,\cronoframeoffset)$);
+	  \draw [line width=\cronoframelinewidth,cronolightgrey] 
 		($(current page.north east)+
-		  (-\cronoedgeoffsetbig-\cronoedgeoffsetgap,-\cronoedgeoffsetsmall)$)
+		  (-\cronoframemargin-\cronoframelinesep,-\cronoframeoffset)$)
 		-- 
 		($(current page.south east)+
-		  (-\cronoedgeoffsetbig-\cronoedgeoffsetgap,\cronoedgeoffsetsmall)$);
+		  (-\cronoframemargin-\cronoframelinesep,\cronoframeoffset)$);
 	  % top lines
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey] 
-		($(current page.north west)+(\cronoedgeoffsetsmall,-\cronoedgeoffsetbig)$)
-		-- ($(current page.north east)+(-\cronoedgeoffsetsmall,-\cronoedgeoffsetbig)$);
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey] 
+	  \draw [line width=\cronoframelinewidth,cronolightgrey] 
+		($(current page.north west)+(\cronoframeoffset,-\cronoframemargin)$)
+		-- ($(current page.north east)+(-\cronoframeoffset,-\cronoframemargin)$);
+	  \draw [line width=\cronoframelinewidth,cronolightgrey] 
 		($(current page.north west)+
-		  (\cronoedgeoffsetsmall,-\cronoedgeoffsetbig-\cronoedgeoffsetgap)$)
+		  (\cronoframeoffset,-\cronoframemargin-\cronoframelinesep)$)
 		-- 
 		($(current page.north east)+
-		  (-\cronoedgeoffsetsmall,-\cronoedgeoffsetbig-\cronoedgeoffsetgap)$);
+		  (-\cronoframeoffset,-\cronoframemargin-\cronoframelinesep)$);
 	  % bottom lines
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey]
-		($(current page.south west)+(\cronoedgeoffsetsmall,\cronoedgeoffsetbig)$)
-		-- ($(current page.south east)+(-\cronoedgeoffsetsmall,\cronoedgeoffsetbig)$);
-	  \draw [line width=\cronoedgelinewidth,cronolightgrey]
-		($(current page.south west)+(\cronoedgeoffsetsmall,\cronoedgeoffsetbig+\cronoedgeoffsetgap)$)
-		-- ($(current page.south east)+(-\cronoedgeoffsetsmall,\cronoedgeoffsetbig+\cronoedgeoffsetgap)$);
+	  \draw [line width=\cronoframelinewidth,cronolightgrey]
+		($(current page.south west)+(\cronoframeoffset,\cronoframemargin)$)
+		-- ($(current page.south east)+(-\cronoframeoffset,\cronoframemargin)$);
+	  \draw [line width=\cronoframelinewidth,cronolightgrey]
+		($(current page.south west)+(\cronoframeoffset,\cronoframemargin+\cronoframelinesep)$)
+		-- ($(current page.south east)+(-\cronoframeoffset,\cronoframemargin+\cronoframelinesep)$);
 	}}
 }{\relax}
 
