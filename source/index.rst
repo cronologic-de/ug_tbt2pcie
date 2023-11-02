@@ -5,7 +5,7 @@ TBT2PCIe |hyphen| User Guide
 .. raw:: latex
 
     \RaggedRight
-    %\layout % uncomment for debugging
+    \layout % uncomment for debugging
 
 
 .. note:: 
