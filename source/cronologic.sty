@@ -311,19 +311,18 @@
 	}}
 }{\relax}
 
-% if sphinx is not used, format headings etc
-\ifthenelse{\boolean{crono@sphinx}}
-{
-	\newcommand{\cronotitle}{\@title\sphinxheadercomma\py@release}
-}
-{ % else, if sphinx is not used, set up page layout
-	\newcommand{\cronotitle}{\@title}
-}
+% % if sphinx is not used, format headings etc
+% \ifthenelse{\boolean{crono@sphinx}}
+% {
+% 	\newcommand{\cronotitle}{\@title\sphinxheadercomma\py@release}
+% }
+% { % else, if sphinx is not used, set up page layout
+% 	\newcommand{\cronotitle}{\@title, Rev. \@release}
+% }
 \fancypagestyle{normal}{
 	\fancyhf{}
-	\fancyfoot[R]{{\color{cronogrey}}}
 	\fancyfoot[L]{{\color{cronogrey}\llap{\hfill\bfseries\thepage\hspace*{10pt}}\footnotesize\textbf{cronologic} GmbH \& Co. KG}}
-	\fancyfoot[R]{{\footnotesize\color{cronogrey}\cronotitle}}
+	\fancyfoot[R]{{\footnotesize\color{cronogrey}\@title, Rev. \py@release}}
 	\renewcommand{\headrulewidth}{0pt}
 	\renewcommand{\footrulewidth}{0pt}
 }
