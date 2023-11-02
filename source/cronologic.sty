@@ -32,10 +32,14 @@
 \newlength\cronoframeoffset
 \newlength\cronoframelinesep
 \newlength\cronoframelinewidth
-\setlength{\cronoframemargin}{1.25cm}
-\setlength{\cronoframeoffset}{0.8cm}
-\setlength{\cronoframelinesep}{0.18pt}
-\setlength{\cronoframelinewidth}{0.8pt}
+\newlength\cronoheadsep
+\newlength\cronofootnotesep
+\setlength\cronoframemargin{1.25cm}
+\setlength\cronoframeoffset{0.8cm}
+\setlength\cronoframelinesep{0.18pt}
+\setlength\cronoframelinewidth{0.8pt}
+\setlength\cronoheadsep{0.35cm}
+\setlength\cronofootnotesep{0.0cm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % colors
@@ -223,14 +227,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % formatting
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\PassOptionsToPackage{
+\RequirePackage{geometry}
+\geometry{
 	left=\cronoleft,
 	right=\cronoright,
 	top=\cronotop,
-	bottom=\cronobottom
-}{geometry}
-\RequirePackage{geometry}
-\setlength\headsep{0.35cm}
+	bottom=1.5cm,
+  headsep=\cronoheadsep,
+}
+\setlength\footskip{18pt}
+\RequirePackage{layout}
+
 
 
 % headings

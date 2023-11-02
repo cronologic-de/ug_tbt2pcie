@@ -54,10 +54,10 @@ latex_elements = {
     "extraclassoptions": r"openany",
     "tableofcontents":r"\tableofcontents",
     "maketitle": r"\includepdf[pages={1}]{titlepage.pdf}",
-    "sphinxsetup": r"""
-        hmargin={1.5cm,1.5cm},
-        vmargin={1.85cm,1.40cm}
-    """
+    # "sphinxsetup": r"""
+    #     hmargin={1.5cm,1.5cm},
+    #     vmargin={1.85cm,1.40cm}
+    # """
 }
 latex_theme = "manual" # manual (book class) or howto (article class)
 latex_additional_files = [
