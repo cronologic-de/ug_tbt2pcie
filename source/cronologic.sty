@@ -111,6 +111,9 @@
 % for that
 \ifthenelse{\equal{\crono@font}{montserrat}}
 {
+    \RequirePackage{montserrat}
+    \RequirePackage{anonymouspro}
+    \RequirePackage{kerkis}
     \setmainfont[
         ItalicFont={Montserrat-Italic.otf},
         BoldFont={Montserrat-Bold.otf},
@@ -152,6 +155,8 @@
 % https://www.ctan.org/pkg/firamath
 \ifthenelse{\equal{\crono@font}{fira}}
 {
+    \RequirePackage{fira}
+    \RequirePackage{firamath}
     \setmainfont[
         ItalicFont={FiraSans-Italic.otf},
         BoldFont={FiraSans-Bold.otf},
@@ -185,6 +190,8 @@
 % The fonts Avenir Next and AvantGarde must be installed on the System
 \ifthenelse{\equal{\crono@font}{avenirnext}}
 {
+    \RequirePackage{anonymouspro}
+    \RequirePackage{kerkis}
     \setmainfont{Avenir Next}
     \setsansfont{Avenir Next}
 
@@ -316,7 +323,6 @@
 }
 \fancypagestyle{normal}{
 	\fancyhf{}
-  \fancyfoot{}
 	\fancyfoot[R]{{\color{cronogrey}}}
 	\fancyfoot[L]{{\color{cronogrey}\llap{\hfill\bfseries\thepage\hspace*{10pt}}\footnotesize\textbf{cronologic} GmbH \& Co. KG}}
 	\fancyfoot[R]{{\footnotesize\color{cronogrey}\cronotitle}}
