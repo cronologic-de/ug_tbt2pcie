@@ -46,10 +46,10 @@ latex_elements = {
             sphinx,
             drawframe]
         {cronologic}
+        \definecolor{ctypered}{RGB}{142,33,0} % C-type auto highlighting color
         \newcommand{\docutilsrolectypered}[1]{{\color{ctypered} #1}}
         \newcommand{\docutilsrolered}[1]{{\color{red} #1}}
         \newcommand{\docutilsrolecronoblue}[1]{{\color{cronblue} #1}}
-        \definecolor{ctypered}{RGB}{142,33,0} % C-type auto highlighting color
     """,
     "extraclassoptions": r"openany",
     "tableofcontents":r"\tableofcontents",

@@ -315,6 +315,14 @@
 	\newcommand{\cronotitle}{\@title}
 }
 \fancypagestyle{normal}{
+  \fancyfoot[RO]{}
+  \fancyfoot[LO]{}
+  \fancyhead[RO]{}
+  \if@twoside
+    \fancyfoot[LE]{}
+    \fancyfoot[RE]{}
+    \fancyhead[LE]{}
+  \fi
 	\fancyhf{}
 	\fancyfoot[R]{{\color{cronogrey}}}
 	\fancyfoot[L]{{\color{cronogrey}\llap{\hfill\bfseries\thepage\hspace*{10pt}}\footnotesize\textbf{cronologic} GmbH \& Co. KG}}
