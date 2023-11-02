@@ -14,5 +14,6 @@ guide of your product at
 `www.cronologic.de/support/downloads
 <https://www.cronologic.de/support/downloads>`_.
 
-This user guide is available at `<www.docs.cronologic.de>`_ as HTML and
-as PDF download. :red:`TODO - check links`
+This user guide is available at
+`docs.cronologic.de <https://docs.cronologic.de/projects/tbt2pcie/en/latest/>`_
+as HTML and as PDF download.
