@@ -1,7 +1,13 @@
-# ug_tbt2pcie
-TBT2PCIe User Guide
+# ug_tbt2pcie - Desktop Solutions
+This is a [Sphinx](https://www.sphinx-doc.org) project that creates the 
+user guide for our desktop solution of the time-to-digital converters by
+[cronologic GmbH & Co. KG](https://www.cronologic.de/products/products-overview#tdcdata).
+
+This user guide is available at
+[docs.cronologic.de](https://docs.cronologic.de/projects/tbt2pcie/en/latest/).
 
 ## Setup and installation
+A Python installation is necessary to compile the user guide.
 
 Optionally, create and activate a virtual environment
 ```shell
@@ -32,7 +38,9 @@ This documentation is licensed under an
 [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/).
 You are free to copy and redistribute the material in any medium or format 
 for any purpose (even commercially) unchanged if you give appropriate credit
-to cronologic GmbH & Co. KG. A link to [this repository](https://github.com/crono-kircher/ug-PCIe-over-USB4) or the [product pages](https://www.cronologic.de/products/products-overview) is sufficient.
+to cronologic GmbH & Co. KG. A link to [this repository](https://github.com/cronologic-de/ug_tbt2pcie)
+or the [product pages](https://www.cronologic.de/products/products-overview)
+is sufficient.
 
 If you decide to contribute to this repository you transfer non-exclusive
 but unlimited rights to your edit to cronologic GmbH & Co. KG.

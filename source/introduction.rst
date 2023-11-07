@@ -3,7 +3,8 @@ Introduction
 
 The `TimeTagger4 <https://www.cronologic.de/product/timetagger>`_ and
 `xTDC4-PCIe <https://www.cronologic.de/product/xtdc4-pcie>`_ time-to-digital
-(TDC) cards are available as external desktop versions, referred to as the 
+(TDC) converters by `cronologic GmbH & Co. KG <https://www.cronologic.de>`_
+are available as external desktop versions, referred to as the 
 TBT variant. Conventional Thunderbolt cables can be used to connect the TBT
 variants of our products to any Thunderbolt port and to any USB4 port that
 support PCIe.
@@ -14,6 +15,6 @@ guide of your product at
 `www.cronologic.de/support/downloads
 <https://www.cronologic.de/support/downloads>`_.
 
-This user guide is available at
-`docs.cronologic.de <https://docs.cronologic.de/projects/tbt2pcie/en/latest/>`_
-as HTML and as PDF download.
+This user guide and the user guides of all products by cronologic GmbH & Co. KG
+are available online at `docs.cronologic.de <https://docs.cronologic.de/>`_ as
+HTML and as PDF download.
