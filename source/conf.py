@@ -9,7 +9,7 @@
 project = 'User Guide Appendix – Desktop Solutions'
 copyright = "CC BY-ND 4.0 DEED"
 author = "cronologic GmbH & Co. KG"
-release = '0.1.0'
+release = '1.0.0rc'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -54,10 +54,7 @@ latex_elements = {
     "extraclassoptions": r"openany",
     "tableofcontents":r"\tableofcontents",
     "maketitle": r"\includepdf[pages={1}]{titlepage.pdf}",
-    # "sphinxsetup": r"""
-    #     hmargin={1.5cm,1.5cm},
-    #     vmargin={1.85cm,1.40cm}
-    # """
+    "releasename": "Rev.",
 }
 latex_theme = "manual" # manual (book class) or howto (article class)
 latex_additional_files = [

@@ -22,7 +22,7 @@ xTDC4:
 User Guide
 ----------
 
-1.0.0 |emdash| DD-Mon-JJJJ
+1.0.0rc |emdash| 2023-11-28
     Initial release
     
 
