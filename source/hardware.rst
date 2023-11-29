@@ -51,12 +51,6 @@ particular TDC card in your device.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
-
-..
-    - *readthedoc hyperlink*
   
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
-
-..
-    - *readthedoc hyperlink*

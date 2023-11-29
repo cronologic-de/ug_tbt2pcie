@@ -31,7 +31,29 @@ exclude_patterns = ["global.rst"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = "alabaster"#'sphinx_rtd_theme'
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+    ]
+}
+html_theme_options = {
+    "font_family" : "Montserrat, sans-serif",
+    "extra_nav_links": {"All User Guides": "https://docs.cronologic.de/"},
+    "sidebar_collapse": False,
+    "fixed_sidebar": True,
+    "logo": "cronologic.svg",
+    "description": f"{project}",
+    "show_powered_by": False,
+    # colors
+    "body_text" : "#737372",
+    "link_hover": "#376EB5",
+}
+
+
 html_static_path = ['_static']
 
 # -- Customizing for PDF output ----------------------------------------------
