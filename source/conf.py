@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'User Guide Appendix – Desktop Solutions'
+project = 'Desktop Solutions – User Guide'
 copyright = "CC BY-ND 4.0 DEED"
 author = "cronologic GmbH & Co. KG"
 release = '1.0.0rc'
@@ -44,16 +44,19 @@ html_theme_options = {
     "font_family" : "Montserrat, sans-serif",
     "extra_nav_links": {"All User Guides": "https://docs.cronologic.de/"},
     "sidebar_collapse": False,
+    "show_relbar_bottom": True,
     "fixed_sidebar": True,
     "logo": "cronologic.svg",
     "description": f"{project}",
     "show_powered_by": False,
+    "touch_icon": "cronologic_favicon.svg",
     # colors
     "body_text" : "#737372",
     "link_hover": "#376EB5",
 }
-
-
+html_favicon = "_static/cronologic_favicon.svg"
+html_title = f"{project}"
+html_secnumber_suffix = " "
 html_static_path = ['_static']
 
 # -- Customizing for PDF output ----------------------------------------------

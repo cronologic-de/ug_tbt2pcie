@@ -36,7 +36,7 @@ Manufacturer
 
 The device is a product of:
 
-    | cronologic GmbH & Co. KG
+    | **cronologic** GmbH & Co. KG
     | Jahnstraße 49
     | D-60318 Frankfurt
 
