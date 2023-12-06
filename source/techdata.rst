@@ -28,7 +28,7 @@ xTDC4:
     - *Direct link to respective section in readthedocs website*
 
 
-Information required by DIN EN 61010-1
+Information required by DIN EN 61010-1
 --------------------------------------
 
 Manufacturer
@@ -47,9 +47,9 @@ The device is a product of:
 Intended Use and System Integration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The device enclosure is designed to comply with **DIN EN 61326-1**
+The device enclosure is designed to comply with **DIN EN 61326-1**
 when operated as outlined in this manual. The enclosure
-does not pose any hazards as defined by **EN 61010-1.**
+does not pose any hazards as defined by **EN 61010-1.**
 
 When handling the enclosure, adequate measures have to be taken to protect
 the circuits against electrostatic discharge (ESD).
@@ -60,8 +60,7 @@ Recycling
 ~~~~~~~~~
 
 cronologic is registered with the “Stiftung Elektro-Altgeräte Register”
-as a manufacturer of electronic systems with **Registration ID DE
-77895909**.
+as a manufacturer of electronic systems with **Registration ID DE 77895909**.
 
 The device belongs to **Category 9**, **“Überwachungs und
 Kontrollinstrumente für aus**\ :raw-latex:`\-`\ **schließlich gewerbliche
