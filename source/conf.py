@@ -42,7 +42,7 @@ html_sidebars = {
 }
 html_theme_options = {
     "font_family" : "Montserrat, sans-serif",
-    "extra_nav_links": {"All User Guides": "https://docs.cronologic.de/"},
+    "extra_nav_links": {"Back to all User Guides": "https://docs.cronologic.de/"},
     "sidebar_collapse": False,
     "show_relbar_bottom": True,
     "fixed_sidebar": True,
