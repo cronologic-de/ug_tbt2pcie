@@ -58,6 +58,7 @@ html_favicon = "_static/cronologic_favicon.svg"
 html_title = f"{project}"
 html_secnumber_suffix = " "
 html_static_path = ['_static']
+html_css_files = ["custom.css"]
 
 # -- Customizing for PDF output ----------------------------------------------
 latex_engine = 'xelatex'
