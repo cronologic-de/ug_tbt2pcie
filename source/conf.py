@@ -67,11 +67,7 @@ latex_elements = {
     "pointsize": "12pt",
     "fontpkg" : "",
     "preamble": r"""
-        \usepackage[
-            font=montserrat,
-            sphinx,
-            drawframe]
-        {cronologic}
+        \usepackage[font=montserrat,sphinx]{cronologicug}
         \definecolor{ctypered}{RGB}{142,33,0} % C-type auto highlighting color
         \newcommand{\docutilsrolectypered}[1]{{\color{ctypered} #1}}
         \newcommand{\docutilsrolered}[1]{{\color{red} #1}}
@@ -84,7 +80,7 @@ latex_elements = {
 }
 latex_theme = "manual" # manual (book class) or howto (article class)
 latex_additional_files = [
-    "cronologic.sty",
+    "cronologicug.sty",
     "extraplaceins.sty",
     "_figures/titlepage.pdf",
 ]
