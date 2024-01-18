@@ -67,7 +67,12 @@ latex_elements = {
     "pointsize": "12pt",
     "fontpkg" : "",
     "preamble": r"""
-        \usepackage[font=montserrat,sphinx]{cronologicug}
+        \usepackage[font=montserrat,
+                    sphinx,
+                    pdfkeywords={TDC, time-to-digital converter,
+                                 desktop extension, USB4,
+                                 Thunderbolt, xTDC4, TimeTagger4}
+                   ]{cronologicug}
         \definecolor{ctypered}{RGB}{142,33,0} % C-type auto highlighting color
         \newcommand{\docutilsrolectypered}[1]{{\color{ctypered} #1}}
         \newcommand{\docutilsrolered}[1]{{\color{red} #1}}
