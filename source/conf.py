@@ -82,6 +82,8 @@ latex_elements = {
     "tableofcontents":r"\tableofcontents",
     "maketitle": r"\includepdf[pages={1}]{titlepage.pdf}",
     "releasename": "Rev.",
+    "makeindex": "",
+    "printindex": ""
 }
 latex_theme = "manual" # manual (book class) or howto (article class)
 latex_additional_files = [
