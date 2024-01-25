@@ -10,27 +10,27 @@ This user guide is available at
 A Python installation is necessary to compile the user guide.
 
 Optionally, create and activate a virtual environment
-```shell
+```powershell
 python -m venv .venv
 . .\.venv\Scripts\activate
 ``` 
 
 Install the requirements of the project
-```shell
+```powershell
 pip install -r requirements.txt
 ```
 
 
 After that, run
-```shell
+```powershell
 make html
 ```
    or
-```shell
+```powershell
 make latexpdf
 ```
-to compile the project as html or pdf. The html (pdf) output is in build/html/
-(build/latex/).
+to compile the project as html or pdf. The html (pdf) output is in
+`build/html/` (`build/latex/`).
 
 
 ## License
