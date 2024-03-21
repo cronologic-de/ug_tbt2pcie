@@ -34,18 +34,26 @@ cronoblue = "#376EB5"
 cronolightblue = "#569fd6"
 cronoorange = "#ED7807"
 cronolightorange = "rgb(237, 120, 7, 0.2)"
+cronogrey = "#737372"
+cronolightgrey = "#acacac"
+cronoverylightgrey = "#dcdcdc"
 
 html_theme = "furo"
 html_theme_options = {
     "dark_css_variables": {
         "color-brand-primary": cronolightblue,
-        "color-brand-secondary": cronoorange,
         "color-brand-content": cronolightblue,
         "color-api-name": cronoorange,
         "color-sidebar-brand-text": cronolightblue,
         "color-highlight-on-target": cronolightorange,
+        "color-foreground-primary": cronolightgrey,
+        "color-headers": cronoverylightgrey,
     },
     "light_css_variables": {
+        "font-stack": "Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji",
+        "font-stack--monospace": "Consolas, Monaco, Liberation Mono, Lucida Console, monospace",
+        "color-foreground-primary": cronogrey,
+        "color-headers": "#000000",
         "color-brand-primary": cronoblue,
         "color-brand-content": cronoblue,
         "color-api-name": cronoorange,
@@ -53,7 +61,9 @@ html_theme_options = {
         "color-admonition-title--attention": cronoorange,
         "color-admonition-title-background--attention": cronolightorange,
         "color-highlight-on-target": cronolightorange,
+        "sidebar-caption-space-above": "0",
     },
+    "top_of_page_button": None,
 }
 
 html_favicon = "_static/cronologic_favicon.svg"
@@ -62,35 +72,6 @@ html_secnumber_suffix = " "
 html_logo = "_static/cronologic.svg"
 html_static_path = ['_static']
 html_css_files = ["custom.css"]
-
-# html_theme = "alabaster"#'sphinx_rtd_theme'
-# html_sidebars = {
-#     '**': [
-#         'about.html',
-#         'navigation.html',
-#         'relations.html',
-#         'searchbox.html',
-#     ]
-# }
-# html_theme_options = {
-#     "font_family" : "Montserrat, sans-serif",
-#     "extra_nav_links": {"Back to all User Guides": "https://docs.cronologic.de/"},
-#     "sidebar_collapse": False,
-#     "show_relbar_bottom": True,
-#     "fixed_sidebar": True,
-#     "logo": "cronologic.svg",
-#     "description": f"{project}",
-#     "show_powered_by": False,
-#     "touch_icon": "cronologic_favicon.svg",
-#     # colors
-#     "body_text" : "#737372",
-#     "link_hover": "#376EB5",
-# }
-# html_favicon = "_static/cronologic_favicon.svg"
-# html_title = f"{project}"
-# html_secnumber_suffix = " "
-# html_static_path = ['_static']
-# html_css_files = ["custom.css"]
 
 # -- Customizing for PDF output ----------------------------------------------
 latex_engine = 'xelatex'
