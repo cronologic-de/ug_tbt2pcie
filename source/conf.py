@@ -103,6 +103,7 @@ latex_additional_files = [
     "cronologicug.sty",
     "extraplaceins.sty",
     "_figures/titlepage.pdf",
+    "_static/cronologic_favicon.svg",
 ]
 
 numfig = True
