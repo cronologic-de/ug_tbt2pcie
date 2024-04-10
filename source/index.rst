@@ -17,7 +17,9 @@ Desktop Solutions User Guide
 
 .. raw:: latex
 
-    \chapter{Introduction}
+    \phantomsection
+    \addcontentsline{toc}{chapter}{Introduction}
+    \chapter*{Introduction}
 
 The `TimeTagger4 <https://www.cronologic.de/product/timetagger>`_ and
 `xTDC4-PCIe <https://www.cronologic.de/product/xtdc4-pcie>`_ time-to-digital
