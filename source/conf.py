@@ -65,7 +65,7 @@ html_theme_options = {
         "color-highlight-on-target": cronolightorange,
         "sidebar-caption-space-above": "0",
     },
-    "top_of_page_button": None,
+    "top_of_page_buttons": [],
 }
 
 html_favicon = "_static/cronologic_favicon.svg"
