@@ -33,10 +33,6 @@ next to it will light up **green** (input voltage
 :math:`>` 11.3 V). If a power supply is connected that does
 not provide sufficient power, the LED will light up **red**.
 
-.. note::
-    While an external power supply is connected, the device does not draw
-    power via the USB4 port.
-
 .. _p1j:
 .. figure:: _figures/powerplug_overview.*
 
