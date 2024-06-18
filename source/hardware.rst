@@ -14,7 +14,7 @@ Power requirements
 It is possible to supply the device with sufficient power via the USB4
 connector. If that is the case, the LED next to the USB4 port (see
 :numref:`Fig. %s<overview_frontback>`) lights up **green** (input voltage
-:math:`>` |nbws| 8 |nbws| V) and no additional power supply needs to be
+:math:`>` 8 V) and no additional power supply needs to be
 connected. If the LED lights up **red**, an external power supply is necessary.
 
 .. note::
@@ -22,16 +22,15 @@ connected. If the LED lights up **red**, an external power supply is necessary.
     cards.
 
 In case an external power supply is necessary, we recommend the
-`MeanWell GST40A12-P1J
-<https://www.meanwell-web.com/en-gb/ac-dc-industrial-desktop-adaptor-output-12vdc-at-3-gst40a12--p1j>`_
-(12 |nbws| V |nbws| DC, 3.34 |nbws| A) power supply.
+`MeanWell GST40A12-P1J <https://www.meanwell-web.com/en-gb/ac-dc-industrial-desktop-adaptor-with-pfc-input-3-gst90a15--p1m>`_
+(15 V DC, 6 A) power supply.
 However, any power supply providing
-**12** |endash| **17.5** |nbws| **V** |nbws| **DC @ 3** |nbws| **A**
+**12–20 V DC @ 6 A**
 with a plug as depicted in :numref:`Fig. %s<p1j>` is sufficient.
 
 If the power supply connected to the EXT PWR socket is sufficient, the LED
 next to it will light up **green** (input voltage
-:math:`>` |nbws| 11.3 |nbws| V). If a power supply is connected that does
+:math:`>` 11.3 V). If a power supply is connected that does
 not provide sufficient power, the LED will light up **red**.
 
 .. note::
