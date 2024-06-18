@@ -22,7 +22,7 @@ xTDC4:
 User Guide
 ----------
 
-1.0.0rc |emdash| 2024-06-18
+1.0.0-rc — 2024-06-18
     Initial release
     
 
