@@ -22,7 +22,7 @@ connected. If the LED lights up **red**, an external power supply is necessary.
     cards.
 
 In case an external power supply is necessary, we recommend the
-`MeanWell GST40A12-P1J <https://www.meanwell-web.com/en-gb/ac-dc-industrial-desktop-adaptor-with-pfc-input-3-gst90a15--p1m>`_
+`MeanWell GST90A15-P1M <https://www.meanwell-web.com/en-gb/ac-dc-industrial-desktop-adaptor-with-pfc-input-3-gst90a15--p1m>`_
 (15 V DC, 6 A) power supply.
 However, any power supply providing
 **12–20 V DC @ 6 A**
