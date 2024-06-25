@@ -12,11 +12,10 @@ to the following naming scheme:
 xTDC4
 -----
 **xTDC4-TBT**
-    TDC desktop solution to be connected to any Thunderbolt port using 
-    conventional Thunderbolt cables.
+    External device connection to Thunderbolt ports.
 
 **xTDC4-PCIe**
-    TDC card to be installed in any PCIe CEM x1 slot.
+    PCIe CEM x1 plugin board.
 
 
 TBT-Upgrade-Kit
