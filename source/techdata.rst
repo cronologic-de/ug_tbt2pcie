@@ -8,8 +8,7 @@ Dimensions:
     240 × 155 × 50 mm
 
 Weight:
-    - TimeTagger4: TBA
-    - xTDC4: TBA
+    1200 g
 
 TDC characteristics
 -------------------
