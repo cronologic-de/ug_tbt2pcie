@@ -11,22 +11,19 @@ to the following naming scheme:
 
 xTDC4
 -----
-xTDC4-PCIe
-    TDC card to be installed in any PCIe CEM :math:`\times`\ 1 slot
-
 xTDC4-TBT
-    TDC desktop solution to be connected to any Thunderbolt port or
-    USB4 port with PCIe capabilities using conventional Thunderbolt cables.
+    TDC desktop solution to be connected to any Thunderbolt port using 
+    conventional Thunderbolt cables.
+
+xTDC4-PCIe
+    TDC card to be installed in any PCIe CEM x1 slot.
 
 
 TBT-Upgrade-Kit
 ---------------
 
 If you own the PCIe version of any product listed above, you can upgrade your
-device to the desktop (-TBT) version using the following ordering codes:
+device to the desktop (-TBT) version using the following ordering code:
 
-TT4-EXT
-    Upgrade kit for any **TT4-▯-PCIe** card.
-
-xTDC4-EXT
-    Upgrade kit for the **xTDC4-PCIe** card.
+TBT-KIT
+    Upgrade kit for any **TT4-▯-PCIe** or **xTDC4-PCIe** card.
