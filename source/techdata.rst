@@ -5,7 +5,7 @@ Size and Weight
 ---------------
 
 Dimensions:
-    TBA
+    240 × 155 × 50 mm
 
 Weight:
     - TimeTagger4: TBA
@@ -18,14 +18,8 @@ Refer to the main user guide of the particular TDC card in your device.
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
 
-..
-    - *Direct link to respective section in readthedocs website*
-  
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
-
-..
-    - *Direct link to respective section in readthedocs website*
 
 
 Information required by DIN EN 61010-1
