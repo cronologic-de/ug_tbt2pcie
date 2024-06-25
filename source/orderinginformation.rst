@@ -24,5 +24,8 @@ TBT-Upgrade-Kit
 If you own the PCIe version of any product listed above, you can upgrade your
 device to the desktop (-TBT) version using the following ordering code:
 
-**TBT-KIT**
-    Upgrade kit for any **TT4-▯-PCIe** or **xTDC4-PCIe** card.
+**TimeTagger4-TBT-KIT**
+    Upgrade kit for any **TimeTagger4-▯-PCIe** card.
+
+**xTDC4-TBT-KIT**
+    Upgrade kit for a **xTDC4-PCIe** card.
