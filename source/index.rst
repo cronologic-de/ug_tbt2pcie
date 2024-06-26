@@ -11,10 +11,6 @@ Desktop Solutions User Guide
     \RaggedRight
     %\layout % uncomment for debugging
 
-
-.. note:: 
-    This user guide is under active development.
-
 .. raw:: latex
 
     \phantomsection
