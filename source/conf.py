@@ -9,7 +9,7 @@
 project = 'Desktop Solutions User Guide'
 copyright = "CC BY-ND 4.0 DEED"
 author = "cronologic GmbH & Co. KG"
-release = '1.0.0rc'
+release = '1.0.0' # also change in revhistory.rst
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

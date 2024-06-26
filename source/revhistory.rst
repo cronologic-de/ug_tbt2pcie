@@ -17,7 +17,9 @@ xTDC4:
 User Guide
 ----------
 
-1.0.0 — 2024-06-26
+.. also change release number in conf.py
+
+1.0.0 — 2024-06-26 
     Initial release
     
 
