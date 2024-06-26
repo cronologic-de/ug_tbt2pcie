@@ -29,7 +29,7 @@ make html
 ```shell
 make latexpdf
 ```
-to compile the project as html or pdf. The html (pdf) output is in
+to compile the project as HTML or PDF. The HTML (PDF) output is in
 `build/html/` (`build/latex/`).
 
 
