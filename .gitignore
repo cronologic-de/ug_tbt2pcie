@@ -1,12 +1,7 @@
 # vscode config files
 .vscode/
 
-# automatic build output
-build/*
-!build/latex
-build/latex/*
-!build/latex/userguideappendixdesktopsolutions.pdf
-
+build/
 
 # virtual environment folder
 .venv/
