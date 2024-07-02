@@ -4,7 +4,8 @@ Desktop Solutions User Guide
 
 .. only:: html
 
-    .. image:: _figures/TBT2PCIe_Rear_view_lowres.png
+    .. image:: _figures/front_view.png
+        :alt: Front view of the TBT2PCIe crate
 
 .. raw:: latex
 

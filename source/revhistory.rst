@@ -19,8 +19,13 @@ User Guide
 
 .. also change release number in conf.py
 
+
+1.0.1-rc — TBA
+    | Updated images; now including ventilation slits
+    | Fixed typos
+
 1.0.0 — 2024-06-26 
-    Initial release
+    | Initial release
     
 
 .. raw:: latex
