@@ -33,7 +33,7 @@ guide of your product at
 
 .. only:: html
 
-    This user guide is also availabe as `PDF download 
+    This user guide is also available as `PDF download 
     <https://docs.cronologic.de/_/downloads/tbt2pcie/en/latest/pdf/>`_.
 
 .. only:: latex
