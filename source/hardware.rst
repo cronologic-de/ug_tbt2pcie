@@ -49,3 +49,10 @@ TimeTagger4:
   
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+
+
+Addons
+------
+It is possible to buy **wall mounts** and **tower feet** for the crate. These 
+are not sold by cronologic, but you can purchase these from
+`BOPLA enclosures <https://www.bopla.de/en/enclosure-technology/alustyle/accessories-5>`_.
