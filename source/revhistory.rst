@@ -20,7 +20,7 @@ User Guide
 .. also change release number in conf.py
 
 
-|version| — TBA
+|version| — 2024-07-09
     | Updated images; now including ventilation slits
     | Fixed typos
 
