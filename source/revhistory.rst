@@ -20,7 +20,7 @@ User Guide
 .. also change release number in conf.py
 
 
-1.0.1-rc — TBA
+|version| — TBA
     | Updated images; now including ventilation slits
     | Fixed typos
 
