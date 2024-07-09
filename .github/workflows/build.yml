@@ -1,0 +1,76 @@
+name: Build and publish documentation
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build_and_publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        # checkout specific branch
+        ref: main
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.12
+        cache: 'pip'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Build project
+      run: |
+        make html
+        make latex
+
+    - name: Compile PDF
+      uses: xu-cheng/latex-action@v3
+      with:
+        root_file: desktopsolutionsuserguide.tex
+        latexmk_use_lualatex: true
+        working_directory: build/latex
+        pre_compile: "tlmgr update --self && tlmgr update --all"
+
+    - name: Upload log if latexmk fails
+      if: ${{ failure() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: latex_files
+        path: |
+          build/latex/*
+
+    - name: Rename PDF
+      run: |
+        mv build/latex/desktopsolutionsuserguide.pdf build/latex/DesktopSolutions_User_Guide.pdf
+
+    - name: Publish HTML
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.KEY }}
+        source: ./build/html/*
+        target: ${{ secrets.TARGETHTML }}
+        strip_components: 2
+        rm: true
+
+    - name: Publish PDF
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.KEY }}
+        source: ./build/latex/DesktopSolutions_User_Guide.pdf
+        target: ${{ secrets.TARGETPDF }}
+        strip_components: 3
+        rm: true
