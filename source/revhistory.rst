@@ -24,10 +24,5 @@ User Guide
     | Updated images; now including ventilation slits
     | Fixed typos
 
-1.0.0 — 2024-06-26 
+1.0.0 — 2024-06-26
     | Initial release
-    
-
-.. raw:: latex
-
-    \includepdf[pages={2}]{titlepage.pdf}
