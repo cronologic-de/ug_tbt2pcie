@@ -17,10 +17,10 @@ xTDC4:
 User Guide
 ----------
 
-.. also change release number in conf.py
+|version| — 2024-08-21
+    | Fixed power requirements in User Guide
 
-
-|version| — 2024-07-09
+1.0.1 — 2024-07-09
     | Updated images; now including ventilation slits
     | Fixed typos
 

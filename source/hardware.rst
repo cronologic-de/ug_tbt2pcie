@@ -22,10 +22,10 @@ connected. If the LED lights up **red**, an external power supply is necessary.
     cards.
 
 In case an external power supply is necessary, we recommend the
-`MeanWell GSM40A18-P1J <https://medical.meanwell.com/webapp/product/search.aspx?prod=GSM40A>`_
-(18 V DC, 40 W, 2.22 A) power supply.
+`MeanWell GSM40A15-P1J <https://www.meanwell.com/Upload/PDF/GST40A/GST40A-SPEC.PDF>`_
+(15 V DC, 40 W, 2.22 A) power supply.
 However, any power supply providing
-**12–20 V DC @ 40 W**
+**14–15 V DC @ 40 W**
 with a plug as depicted in :numref:`Fig. %s<p1j>` is sufficient.
 
 If the power supply connected to the EXT PWR socket is sufficient, the LED
