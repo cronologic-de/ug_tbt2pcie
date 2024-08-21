@@ -13,9 +13,9 @@ Power requirements
 
 It is possible to supply the device with sufficient power via the USB4
 connector. If that is the case, the LED next to the USB4 port (see
-:numref:`Fig. %s<overview_frontback>`) lights up **green** (input voltage
-:math:`>` 8 V) and no additional power supply needs to be
-connected. If the LED lights up **red**, an external power supply is necessary.
+:numref:`Fig. %s<overview_frontback>`) lights up **green** and no additional 
+power supply needs to be connected. If the LED lights up **red**, an external 
+power supply is necessary.
 
 .. note::
     No external power supply is provided with the TBT variants of our TDC
@@ -23,14 +23,12 @@ connected. If the LED lights up **red**, an external power supply is necessary.
 
 In case an external power supply is necessary, we recommend the
 `MeanWell GSM40A15-P1J <https://www.meanwell.com/Upload/PDF/GST40A/GST40A-SPEC.PDF>`_
-(15 V DC, 40 W, 2.22 A) power supply.
-However, any power supply providing
-**14–15 V DC @ 40 W**
+(15 V DC, 40 W, 2.67 A) power supply.
+However, any power supply providing **14–15 V DC @ 40 W**
 with a plug as depicted in :numref:`Fig. %s<p1j>` is sufficient.
 
 If the power supply connected to the EXT PWR socket is sufficient, the LED
-next to it will light up **green** (input voltage
-:math:`>` 11.3 V). If a power supply is connected that does
+next to it will light up **green**. If a power supply is connected that does
 not provide sufficient power, the LED will light up **red**.
 
 .. _p1j:
