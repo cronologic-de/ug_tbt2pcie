@@ -10,6 +10,10 @@ Desktop Solutions User Guide
 .. raw:: latex
 
     \RaggedRight
+    \tolerance=1
+    \emergencystretch=\maxdimen
+    \hyphenpenalty=10000
+    \hbadness=10000
     %\layout % uncomment for debugging
 
 .. raw:: latex
