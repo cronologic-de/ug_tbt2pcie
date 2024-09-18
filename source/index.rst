@@ -22,9 +22,11 @@ Desktop Solutions User Guide
     \addcontentsline{toc}{chapter}{Introduction}
     \chapter*{Introduction}
 
-The `TimeTagger4 <https://www.cronologic.de/product/timetagger>`_ and
-`xTDC4 <https://www.cronologic.de/product/xtdc4-pcie>`_ time-to-digital
-(TDC) converters by `cronologic GmbH & Co. KG <https://www.cronologic.de>`_
+The `TimeTagger4 <https://www.cronologic.de/product/timetagger>`_,
+`xTDC4 <https://www.cronologic.de/product/xtdc4>`_, and
+`xHPTDC8 <https://www.cronologic.de/product/xhptdc8>`_
+time-to-digital (TDC) converters by
+`cronologic GmbH & Co. KG <https://www.cronologic.de>`_
 are available as external desktop versions, referred to as the 
 TBT variant. Conventional Thunderbolt cables can be used to connect the TBT
 variants of our products to any Thunderbolt port and to any USB4 port that

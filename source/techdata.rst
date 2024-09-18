@@ -20,6 +20,8 @@ TimeTagger4:
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
 
+xHPTDC8:
+    - `<https://download.cronologic.de/xHPTDC8-PCIe/xHPTDC8_User_guide.pdf>`_
 
 Information required by DIN EN 61010-1
 --------------------------------------

@@ -13,11 +13,18 @@ TimeTagger4:
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
 
+xHPTDC8:
+    - `<https://download.cronologic.de/xHPTDC8-PCIe/xHPTDC8_User_guide.pdf>`_
 
 User Guide
 ----------
+|version| — TBA
+    | Added xHPTDC8
+    | Expanded documentation on power requirements
+    | Add documentation for power-up sequence.
+    | Fixed LED documentation
 
-|version| — 2024-08-21
+1.0.2 — 2024-08-21
     | Fixed power requirements in User Guide
 
 1.0.1 — 2024-07-09
