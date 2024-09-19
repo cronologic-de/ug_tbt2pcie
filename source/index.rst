@@ -24,7 +24,7 @@ Desktop Solutions User Guide
 
 The `TimeTagger4 <https://www.cronologic.de/product/timetagger>`_,
 `xTDC4 <https://www.cronologic.de/product/xtdc4>`_, and
-`xHPTDC8 <https://www.cronologic.de/product/xhptdc8>`_
+`xHPTDC8 <https://www.cronologic.de/product/xhptdc8-pcie>`_
 time-to-digital (TDC) converters by
 `cronologic GmbH & Co. KG <https://www.cronologic.de>`_
 are available as external desktop versions, referred to as the 
