@@ -70,11 +70,12 @@ The back panel features two LEDs:
 
 USB-C
     This LED indicates a sufficient power supply by the USB-C port if green.
-    Only relevant for the TimeTagger4.
+    It is only relevant for the TimeTagger4.
 
 EXT PWR
     This LED indicates sufficient (green) or insufficient (red) power supply.
     If it is red, the connected power supply does not provide enough power.
+    It is only relevant for the xTDC4 and xHPTDC8.
 
 Inputs and connectors
 ---------------------
