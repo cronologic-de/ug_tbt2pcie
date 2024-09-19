@@ -69,7 +69,7 @@ LEDs
 The back panel features two LEDs:
 
 USB-C
-    This LED indicates a sufficient power supply by the USBC port if green.
+    This LED indicates a sufficient power supply by the USB-C port if green.
     Only relevant for the TimeTagger4.
 
 EXT PWR
@@ -79,7 +79,7 @@ EXT PWR
 Inputs and connectors
 ---------------------
 
-For the front-panel connectors, refer to the main user guide of the
+For the front-panel connectors, refer to the main User Guide of the
 particular TDC card in your device.
 
 TimeTagger4:

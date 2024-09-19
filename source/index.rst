@@ -34,7 +34,7 @@ support PCIe.
 
 This User Guide provides an overview of the device's operation.
 It should be understood as an appendix to the main User Guide of your device,
-where the functionality, hardware interfaces and application programming
+where the functionality, hardware and application programming
 interfaces are explained. See:
 
 TimeTagger4:
