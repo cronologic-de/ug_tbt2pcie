@@ -32,9 +32,20 @@ TBT variant. Conventional Thunderbolt cables can be used to connect the TBT
 variants of our products to any Thunderbolt port and to any USB4 port that
 support PCIe.
 
-This User Guide Appendix provides an overview of the device's operation.
-For an explanation of the APIs and interfaces refer to the main user
-guide of your product.
+This User Guide provides an overview of the device's operation.
+It should be understood as an appendix to the main User Guide of your device,
+where the functionality, hardware interfaces and application programming
+interfaces are explained. See:
+
+TimeTagger4:
+    - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+  
+xTDC4:
+    - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+
+xHPTDC8:
+    - `<https://download.cronologic.de/xHPTDC8-PCIe/xHPTDC8_User_guide.pdf>`_
+
 
 
 .. only:: latex
