@@ -17,7 +17,7 @@ xHPTDC8:
 
 User Guide
 ----------
-|version| — TBA
+|version| — 2024-09-26
     | Added xHPTDC8
     | Expanded documentation on power requirements
     | Add documentation for power-up sequence.
