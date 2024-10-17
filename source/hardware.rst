@@ -2,13 +2,11 @@ Hardware
 ========
 
 .. _overview_frontback:
-.. figure:: _figures/frontback.*
+.. figure:: _figures/panel_overview.jpg
+    :width: 70%
     :alt: TBT variant front and back panel.
 
-    Front and back panel of the TBT variant of our TDC cards (in the image, the 
-    front panel corresponds to the xTDC4 and the TimeTagger4).
-    The interface at the front panel is the same as the interface of the
-    respective TDC board.
+    Front and back panel of the TBT variant of our TDC cards.
 
 Power requirements
 ------------------

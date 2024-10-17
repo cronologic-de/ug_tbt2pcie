@@ -17,7 +17,10 @@ xHPTDC8:
 
 User Guide
 ----------
-|version| — 2024-09-26
+|version| - TBA
+    | Included xHPTDC8 Front Panel in :numref:`Fig. %s<overview_frontback>`
+
+1.1.0 — 2024-09-26
     | Added xHPTDC8
     | Expanded documentation on power requirements
     | Add documentation for power-up sequence.
