@@ -19,6 +19,7 @@ User Guide
 ----------
 |version| - TBA
     | Included xHPTDC8 Front Panel in :numref:`Fig. %s<overview_frontback>`
+    | Added :ref:`hardware:optional addons`
 
 1.1.0 — 2024-09-26
     | Added xHPTDC8

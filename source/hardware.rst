@@ -91,8 +91,28 @@ xHPTDC8:
     - `<https://download.cronologic.de/xHPTDC8-PCIe/xHPTDC8_User_guide.pdf>`_
 
 
-Addons
-------
-It is possible to buy **wall mounts** and **tower feet** for the crate. These 
-are not sold by cronologic, but you can purchase these from
-`BOPLA enclosures <https://www.bopla.de/en/enclosure-technology/alustyle/accessories-5>`_.
+Optional Addons
+---------------
+It is possible to buy **wall brackets** and **tower feet** for the crate (
+see :numref:`Fig. %s<fig addons>`). These 
+are not sold by cronologic, but you can purchase them from
+`BOPLA enclosures <https://www.bopla.de/en/>`__.
+
+Wall brackets
+    | `AS 0030-0200 WL-7024 <https://www.bopla.de/en/enclosure-technology/alustyle/accessories-6/wall-brackets-3/as-0030-0200-wl-7024>`_
+    | Order no.: 94722200
+    | Profile length 200 mm
+
+Tower feet
+    | `AS 0030-0200 T-7024 <https://www.bopla.de/gehaeusetechnik/alustyle/zubehoer-6/towerfuesse/as-0030-0200-t-7024>`_
+    | Order no.: 94762200
+    | Profile length 200 mm
+
+.. _fig addons:
+.. figure:: _figures/mounting_addons.png
+    :alt: Addons for cronologic TDC in TBT variants
+    :width: 80%
+
+    Optional addons for the TBT variant of our TDC cards. Left: universal wall 
+    brackets; right: tower feet (sold seperately by
+    `BOPLA enclosures <https://www.bopla.de/en/>`__).
