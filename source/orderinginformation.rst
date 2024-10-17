@@ -16,3 +16,12 @@ xTDC4
 
 **xTDC4-PCIe**
     PCIe CEM x1 plugin board.
+
+
+xHPTDC8
+-------
+**xHPTDC8-TBT**
+    External device connection to Thunderbolt ports.
+
+**xHPTDC8-PCIe**
+    PCIe CEM x1 plugin board.

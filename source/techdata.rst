@@ -12,7 +12,7 @@ Weight:
 
 TDC characteristics
 -------------------
-Refer to the main user guide of the particular TDC card in your device.
+Refer to the main User Guide of the particular TDC card in your device.
 
 TimeTagger4:
     - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
@@ -20,6 +20,8 @@ TimeTagger4:
 xTDC4:
     - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
 
+xHPTDC8:
+    - `<https://download.cronologic.de/xHPTDC8-PCIe/xHPTDC8_User_guide.pdf>`_
 
 Information required by DIN EN 61010-1
 --------------------------------------
