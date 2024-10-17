@@ -17,7 +17,7 @@ xHPTDC8:
 
 User Guide
 ----------
-|version| - TBA
+1.2.0 - 2024-10-17
     | Included xHPTDC8 Front Panel in :numref:`Fig. %s<overview_frontback>`
     | Added :ref:`hardware:optional addons`
 
