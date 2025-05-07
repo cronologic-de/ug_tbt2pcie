@@ -7,16 +7,19 @@ Firmware, Driver, and Applications
 Refer to the main User Guide of the particular TDC card in your device.
 
 TimeTagger4:
-    - `<https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`_
+    - `<https://docs.cronologic.de/downloads/timetagger4/TimeTagger4_User_Guide.pdf>`_
   
 xTDC4:
-    - `<https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`_
+    - `<https://docs.cronologic.de/downloads/xtdc4/xTDC4_User_Guide.pdf>`_
 
 xHPTDC8:
-    - `<https://download.cronologic.de/xHPTDC8-PCIe/xHPTDC8_User_guide.pdf>`_
+    - `<https://docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf>`_
 
 User Guide
 ----------
+1.2.1 - 2025-05-07
+    | Updated main user guide hyperlinks
+
 1.2.0 - 2024-10-17
     | Included xHPTDC8 Front Panel in :numref:`Fig. %s<overview_frontback>`
     | Added :ref:`hardware:optional addons`
