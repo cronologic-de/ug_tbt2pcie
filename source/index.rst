@@ -30,7 +30,7 @@ time-to-digital (TDC) converters by
 are available as external desktop versions, referred to as the 
 TBT variant. Conventional Thunderbolt cables can be used to connect the TBT
 variants of our products to any Thunderbolt port and to any USB4 port that
-support PCIe.
+supports PCIe.
 
 This User Guide provides an overview of the device's operation.
 It should be understood as an appendix to the main User Guide of your device,
