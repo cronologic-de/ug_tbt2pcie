@@ -1,6 +1,14 @@
 Hardware
 ========
 
+.. _overview_front:
+.. figure:: _figures/front_view.png
+    :alt: Front view of the TBT2PCIe crate
+    :width: 70%
+
+    Overview of the TBT variants. The device is 240 × 155 × 50 mm big.
+
+
 .. _overview_frontback:
 .. figure:: _figures/panel_overview.jpg
     :width: 70%
