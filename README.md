@@ -34,6 +34,8 @@ to compile the project as HTML or PDF. The HTML (PDF) output is in
 
 
 ## License
+![Creative Commons by-nd 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)
+
 This documentation is licensed under an
 [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/).
 You are free to copy and redistribute the material in any medium or format 
@@ -44,6 +46,5 @@ is sufficient.
 
 If you decide to contribute to this repository you transfer non-exclusive
 but unlimited rights to your edit to cronologic GmbH & Co. KG.
-![Creative Commons by-nd 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)
 
 The file [extraplaceins.sty](extraplaceins.sty) is in the public domain.

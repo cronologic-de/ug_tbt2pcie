@@ -17,6 +17,9 @@ xHPTDC8:
 
 User Guide
 ----------
+1.2.2 - 2025-07-24
+    | Add :numref:`Fig. %s<overview_front>`
+
 1.2.1 - 2025-05-07
     | Updated main user guide hyperlinks
 
