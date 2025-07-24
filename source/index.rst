@@ -28,9 +28,14 @@ The `TimeTagger4 <https://www.cronologic.de/product/timetagger>`_,
 time-to-digital (TDC) converters by
 `cronologic GmbH & Co. KG <https://www.cronologic.de>`_
 are available as external desktop versions, referred to as the 
-TBT variant. Conventional Thunderbolt cables can be used to connect the TBT
-variants of our products to any Thunderbolt port and to any USB4 port that
-supports PCIe.
+TBT variant. Conventional **Thunderbolt cables** can be used to connect the TBT
+variants of our products to any **Thunderbolt port** and to any **USB4 port** that
+**supports PCIe**.
+
+.. attention::
+    
+    Standard USB-C cables and USB-C ports (that do not support PCIe) are not sufficient
+    to connect our TBT variants!
 
 This User Guide provides an overview of the device's operation.
 It should be understood as an appendix to the main User Guide of your device,
