@@ -32,10 +32,6 @@ TBT variant. Conventional **Thunderbolt cables** can be used to connect the TBT
 variants of our products to any **Thunderbolt port** and to any **USB4 port** that
 **supports PCIe**.
 
-.. attention::
-    
-    Standard USB-C cables and USB-C ports (that do not support PCIe) are not sufficient
-    to connect our TBT variants!
 
 This User Guide provides an overview of the device's operation.
 It should be understood as an appendix to the main User Guide of your device,
@@ -61,7 +57,7 @@ xHPTDC8:
 
 .. toctree:: 
     :hidden:
-    :numbered:
+    :numbered: 3
     :maxdepth: 3
 
     hardware

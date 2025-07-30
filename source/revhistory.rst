@@ -17,16 +17,17 @@ xHPTDC8:
 
 User Guide
 ----------
-1.2.3 - TBD
-    | Updated introduction
+1.3.0 — 2025-07-30
+    | Added :ref:`sec usb4-connection`
+    | Updated hyperlinks
 
-1.2.2 - 2025-07-24
+1.2.2 — 2025-07-24
     | Add :numref:`Fig. %s<overview_front>`
 
-1.2.1 - 2025-05-07
+1.2.1 — 2025-05-07
     | Updated main user guide hyperlinks
 
-1.2.0 - 2024-10-17
+1.2.0 — 2024-10-17
     | Included xHPTDC8 Front Panel in :numref:`Fig. %s<overview_frontback>`
     | Added :ref:`hardware:optional addons`
 

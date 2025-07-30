@@ -69,6 +69,28 @@ recognized by your device, remove the USB4 and power supply connections, then
 follow the correct procedure. If afterwards the TBT card is still not 
 recognized, a reboot of your system is necessary.
 
+.. _sec usb4-connection:
+
+Establishing the USB4 connection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Connect your device to any USB Thunderbolt port or USB4 port that supports PCIe using
+a **proper USB-C cable**. The USB-C cable **must support PCIe tunneling**.
+
+This feature is typically available in:
+
+- **USB4-compliant cables** (with PCIe tunneling support)
+- **Thunderbolt 3 or Thunderbolt 4 certified cables**
+
+.. attention::
+    
+    Standard USB-C cables (including USB 3.x and USB 2.0) **do not support PCIe
+    tunneling** and are not compatible with the device.
+
+.. note::
+
+    No USB-C cable is provided with the TBT variants of our TDC cards.
+
 LEDs
 ----
 
