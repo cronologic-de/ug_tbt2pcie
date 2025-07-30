@@ -83,14 +83,14 @@ This feature is typically available in:
 - **USB4-compliant cables** (with PCIe tunneling support)
 - **Thunderbolt 3 or Thunderbolt 4 certified cables**
 
-.. attention::
-    
-    Standard USB-C cables (including USB 3.x and USB 2.0) **do not support PCIe
-    tunneling** and are not compatible with the device.
-
 .. note::
 
     No USB-C cable is provided with the TBT variants of our TDC cards.
+
+.. attention::
+    
+    Many USB-C cables (including USB 3.x, USB 2.0, and dedicated charging cables)
+    **do not support PCIe tunneling** and are not compatible with the device.
 
 LEDs
 ----
