@@ -56,8 +56,7 @@ xHPTDC8:
 .. only:: latex
 
     This user guide is also available online at 
-    `docs.cronologic.de/projects/tbt2pcie
-    <https://docs.cronologic.de/projects/tbt2pcie/en/latest/>`_.
+    `docs.cronologic.de/desktopsolutions <https://docs.cronologic.de/desktopsolutions/>`_.
 
 
 .. toctree:: 
