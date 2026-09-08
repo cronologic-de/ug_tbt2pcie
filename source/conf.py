@@ -6,11 +6,23 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-with open("version.txt") as f:
-    version = f.read()
+import pathlib
+import tomllib
 
-project = 'Desktop Solutions User Guide'
-copyright = "CC BY-ND 4.0 DEED"
+
+def get_version() -> str:
+    pyproject = pathlib.Path("../pyproject.toml")
+    if pyproject.exists():
+        with pyproject.open("rb") as f:
+            data = tomllib.load(f)
+        return data.get("project", {}).get("version")
+    return "0.0.0"
+
+
+version = get_version()
+
+project = "Desktop Solutions User Guide"
+copyright = "2026, cronologic GmbH & Co. KG"
 author = "cronologic GmbH & Co. KG"
 release = version
 
@@ -80,21 +92,21 @@ html_favicon = "_static/cronologic_favicon.svg"
 html_title = f"{project}"
 html_secnumber_suffix = " "
 html_logo = "_static/cronologic.svg"
-html_static_path = ['_static']
+html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 
 # -- Customizing for PDF output ----------------------------------------------
-latex_engine = 'xelatex'
+latex_engine = "lualatex"
 latex_elements = {
     "papersize": "a4paper",
     "pointsize": "12pt",
-    "fontpkg" : "",
+    "fontpkg": "",
     "preamble": r"""
         \usepackage[font=montserrat,
                     sphinx,
                     pdfkeywords={TDC, time-to-digital converter,
                                  desktop extension, USB4,
-                                 Thunderbolt, xTDC4, TimeTagger4}
+                                 Thunderbolt, xTDC4, TimeTagger4, xHPTDC8}
                    ]{cronologicug}
         \definecolor{ctypered}{RGB}{142,33,0} % C-type auto highlighting color
         \newcommand{\docutilsrolectypered}[1]{{\color{ctypered} #1}}
@@ -102,13 +114,13 @@ latex_elements = {
         \newcommand{\docutilsrolecronoblue}[1]{{\color{cronblue} #1}}
     """,
     "extraclassoptions": r"openany",
-    "tableofcontents":r"\tableofcontents",
+    "tableofcontents": r"\tableofcontents",
     "maketitle": r"\includepdf[pages={1}]{titlepage.pdf}",
     "releasename": "Rev.",
     "makeindex": "",
-    "printindex": ""
+    "printindex": "",
 }
-latex_theme = "manual" # manual (book class) or howto (article class)
+latex_theme = "manual"  # manual (book class) or howto (article class)
 latex_additional_files = [
     "cronologicug.sty",
     "extraplaceins.sty",
@@ -117,8 +129,5 @@ latex_additional_files = [
 ]
 
 numfig = True
-numfig_format = {
-    "figure":"Figure %s:",
-    "table":"Table %s:"
-}
+numfig_format = {"figure": "Figure %s:", "table": "Table %s:"}
 numfig_secnum_depth = 1
