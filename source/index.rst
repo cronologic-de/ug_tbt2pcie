@@ -56,7 +56,6 @@ xHPTDC8:
 
 .. toctree::
     :hidden:
-    :numbered: 3
     :maxdepth: 3
 
     hardware

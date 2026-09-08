@@ -61,4 +61,4 @@ The device belongs to **Category 9**, **“Überwachungs und
 Kontrollinstrumente für aus**\ :raw-latex:`\-`\ **schließlich gewerbliche
 Nutzung.”** The last owner of the device must recycle it in compliance with
 **§11** and **§12** of the German ElektroG, or return it to the manufacturer’s
-address listed in :numref:`Section %s<techdata:Manufacturer>`.
+address listed in :ref:`techdata:Manufacturer`.
