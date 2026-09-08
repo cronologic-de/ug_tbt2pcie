@@ -15,13 +15,13 @@ TDC characteristics
 Refer to the main User Guide of the particular TDC card in your device.
 
 TimeTagger4:
-    - `<https://docs.cronologic.de/downloads/timetagger4/TimeTagger4_User_Guide.pdf>`_
-  
+    - `docs.cronologic.de/timetagger4 <https://docs.cronologic.de/timetagger4>`_
+
 xTDC4:
-    - `<https://docs.cronologic.de/downloads/xtdc4/xTDC4_User_Guide.pdf>`_
+    - `docs.cronologic.de/xtdc4 <https://docs.cronologic.de/xtdc4>`_
 
 xHPTDC8:
-    - `<https://docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf>`_
+    - `docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf <https://docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf>`_
 
 Information required by DIN EN 61010-1
 --------------------------------------
@@ -62,4 +62,3 @@ Kontrollinstrumente für aus**\ :raw-latex:`\-`\ **schließlich gewerbliche
 Nutzung.”** The last owner of the device must recycle it in compliance with
 **§11** and **§12** of the German ElektroG, or return it to the manufacturer’s
 address listed in :numref:`Section %s<techdata:Manufacturer>`.
-

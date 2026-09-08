@@ -19,7 +19,7 @@ Hardware
 Power requirements
 ------------------
 
-The power requirements and the need for an external power supply depend on the 
+The power requirements and the need for an external power supply depend on the
 particular card.
 
 TimeTagger4 (all variants)
@@ -34,7 +34,7 @@ xHPTDC8
 If a power supply is necessary, we recommend the
 `MeanWell GST60A15-P1J <https://www.meanwell.com/Upload/PDF/GST60A/GST60A-SPEC.PDF>`_
 (15 V DC, 60 W, 4 A) power supply.
-However, any power supply providing sufficient power at 
+However, any power supply providing sufficient power at
 14–15 V DC with a plug as depicted in :numref:`Fig. %s<p1j>` is sufficient.
 
 .. _p1j:
@@ -55,7 +55,7 @@ Power-up sequence
 For a proper boot sequence, it is important to:
 
 - **First** connect the power supply.
-- Then, the **EXT PWR LED** will light up **green** (unless the supplied power 
+- Then, the **EXT PWR LED** will light up **green** (unless the supplied power
   is not sufficient).
 - **Only now** establish the the USB4 connection.
 
@@ -66,7 +66,7 @@ For a proper boot sequence, it is important to:
 
 In case you did not follow the above procedure and the TBT card is not
 recognized by your device, remove the USB4 and power supply connections, then
-follow the correct procedure. If afterwards the TBT card is still not 
+follow the correct procedure. If afterwards the TBT card is still not
 recognized, a reboot of your system is necessary.
 
 .. _sec usb4-connection:
@@ -88,7 +88,7 @@ This feature is typically available in:
     No USB-C cable is provided with the TBT variants of our TDC cards.
 
 .. attention::
-    
+
     Many USB-C cables (including USB 3.x, USB 2.0, and dedicated charging cables)
     **do not support PCIe tunneling** and are not compatible with the device.
 
@@ -112,20 +112,21 @@ Inputs and connectors
 For the front-panel connectors, refer to the main User Guide of the
 particular TDC card in your device.
 
+
 TimeTagger4:
-    - `<https://docs.cronologic.de/downloads/timetagger4/TimeTagger4_User_Guide.pdf>`_
-  
+    - `docs.cronologic.de/timetagger4 <https://docs.cronologic.de/timetagger4>`_
+
 xTDC4:
-    - `<https://docs.cronologic.de/downloads/xtdc4/xTDC4_User_Guide.pdf>`_
+    - `docs.cronologic.de/xtdc4 <https://docs.cronologic.de/xtdc4>`_
 
 xHPTDC8:
-    - `<https://docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf>`_
+    - `docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf <https://docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf>`_
 
 
 Optional Addons
 ---------------
 It is possible to buy **wall brackets** and **tower feet** for the crate (
-see :numref:`Fig. %s<fig addons>`). These 
+see :numref:`Fig. %s<fig addons>`). These
 are not sold by cronologic, but you can purchase them from
 `BOPLA enclosures <https://www.bopla.de/en/>`__.
 
@@ -144,6 +145,6 @@ Tower feet
     :alt: Addons for cronologic TDC in TBT variants
     :width: 80%
 
-    Optional addons for the TBT variant of our TDC cards. Left: universal wall 
+    Optional addons for the TBT variant of our TDC cards. Left: universal wall
     brackets; right: tower feet (sold seperately by
     `BOPLA enclosures <https://www.bopla.de/en/>`__).
