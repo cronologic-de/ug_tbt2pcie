@@ -15,10 +15,10 @@ TDC characteristics
 Refer to the main User Guide of the particular TDC card in your device.
 
 TimeTagger4:
-    - `docs.cronologic.de/timetagger4 <https://docs.cronologic.de/timetagger4>`_
+    - `docs.cronologic.de/timetagger4 <https://docs.cronologic.de/timetagger4/technical_data.html#tdc-characteristics>`_
 
 xTDC4:
-    - `docs.cronologic.de/xtdc4 <https://docs.cronologic.de/xtdc4>`_
+    - `docs.cronologic.de/xtdc4 <https://docs.cronologic.de/xtdc4/technical_data.html#tdc-characteristics>`_
 
 xHPTDC8:
     - `docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf <https://docs.cronologic.de/downloads/xhptdc8/xHPTDC8_User_Guide.pdf>`_
